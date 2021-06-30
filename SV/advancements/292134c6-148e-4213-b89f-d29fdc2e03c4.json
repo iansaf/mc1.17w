@@ -497,6 +497,12 @@
     },
     "done": true
   },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_helmet": "2021-06-30 12:19:17 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/copper_ingot": {
     "criteria": {
       "has_the_recipe": "2021-06-13 16:27:38 +0800"
@@ -560,6 +566,12 @@
   "minecraft:recipes/decorations/lime_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_the_recipe": "2021-06-13 16:27:37 +0800"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2021-06-30 12:20:50 +0800"
     },
     "done": true
   },
@@ -2795,6 +2807,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2021-06-30 11:04:24 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_ingot_from_iron_block": {
     "criteria": {
       "has_the_recipe": "2021-06-13 16:27:37 +0800"
@@ -3218,6 +3236,12 @@
   "minecraft:recipes/redstone/redstone_lamp": {
     "criteria": {
       "has_the_recipe": "2021-06-13 16:27:37 +0800"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/wax_off": {
+    "criteria": {
+      "wax_off": "2021-06-30 13:28:06 +0800"
     },
     "done": true
   },
@@ -3679,7 +3703,9 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2021-06-30 14:07:58 +0800",
       "minecraft:skeleton": "2021-06-13 17:28:04 +0800",
+      "minecraft:spider": "2021-06-30 10:32:16 +0800",
       "minecraft:creeper": "2021-06-15 13:07:29 +0800",
       "minecraft:zombie": "2021-06-13 17:28:53 +0800",
       "minecraft:zombie_villager": "2021-06-13 17:33:32 +0800"
@@ -4709,6 +4735,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/wax_on": {
+    "criteria": {
+      "wax_on": "2021-06-30 12:56:14 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/purple_terracotta": {
     "criteria": {
       "has_the_recipe": "2021-06-13 16:27:38 +0800"
@@ -4978,6 +5010,10 @@
       "cooked_porkchop": "2021-06-13 16:53:09 +0800",
       "cooked_mutton": "2021-06-13 14:44:52 +0800",
       "cooked_beef": "2021-06-13 14:20:28 +0800",
+      "apple": "2021-06-30 12:52:00 +0800",
+      "spider_eye": "2021-06-30 11:57:13 +0800",
+      "bread": "2021-06-30 12:33:31 +0800",
+      "rotten_flesh": "2021-06-30 10:53:34 +0800",
       "cooked_chicken": "2021-06-13 14:21:05 +0800",
       "cooked_salmon": "2021-06-13 14:35:55 +0800"
     },

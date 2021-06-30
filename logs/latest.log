@@ -1,0 +1,245 @@
+[12:07:00] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[12:08:24] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[12:08:24] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[12:08:24] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[12:08:24] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[12:08:24] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[12:08:24] [main/INFO]: Reloading ResourceManager: Default, CavesAndCliffsPreview.zip, DamegeDisplay
+[12:08:26] [Worker-Main-5/INFO]: Loaded 7 recipes
+[12:08:26] [Worker-Main-5/ERROR]: Couldn't load tag minecraft:load as it is missing following references: minecraft: (from DamegeDisplay)
+[12:08:27] [Worker-Main-5/INFO]: Loaded 1138 advancements
+[12:08:31] [Server thread/INFO]: Starting minecraft server version 1.17
+[12:08:31] [Server thread/INFO]: Loading properties
+[12:08:31] [Server thread/INFO]: Default game type: SURVIVAL
+[12:08:31] [Server thread/INFO]: Generating keypair
+[12:08:31] [Server thread/INFO]: Starting Minecraft server on *:25565
+[12:08:31] [Server thread/INFO]: Using default channel type
+[12:08:32] [Server thread/INFO]: Preparing level "SV"
+[12:08:32] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[12:08:33] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[12:08:33] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[12:08:33] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[12:08:41] [User Authenticator #1/INFO]: UUID of player susuki_kamu_2358 is 88cc189e-7ebb-41bd-974c-74b557b4bac2
+[12:08:42] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[12:08:42] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[12:08:42] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[12:08:42] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[12:08:42] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[12:08:42] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[12:08:42] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[12:08:42] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[12:08:42] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[12:08:42] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[12:08:42] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[12:08:42] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[12:08:42] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[12:08:42] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[12:08:42] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[12:08:42] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[12:08:42] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[12:08:42] [Worker-Main-5/INFO]: Preparing spawn area: 15%
+[12:08:43] [Worker-Main-6/INFO]: Preparing spawn area: 26%
+[12:08:44] [Worker-Main-6/INFO]: Preparing spawn area: 34%
+[12:08:44] [Worker-Main-4/INFO]: Preparing spawn area: 46%
+[12:08:44] [Worker-Main-6/INFO]: Preparing spawn area: 69%
+[12:08:45] [Worker-Main-6/INFO]: Preparing spawn area: 87%
+[12:08:45] [Worker-Main-6/INFO]: Preparing spawn area: 87%
+[12:08:46] [Worker-Main-6/INFO]: Preparing spawn area: 87%
+[12:08:46] [Worker-Main-4/INFO]: Preparing spawn area: 88%
+[12:08:47] [Worker-Main-5/INFO]: Preparing spawn area: 88%
+[12:08:47] [Server thread/INFO]: Time elapsed: 15101 ms
+[12:08:47] [Server thread/INFO]: Done (15.440s)! For help, type "help"
+[12:08:48] [Server thread/INFO]: com.mojang.authlib.GameProfile@14002c3b[id=88cc189e-7ebb-41bd-974c-74b557b4bac2,name=susuki_kamu_2358,properties={textures=[com.mojang.authlib.properties.Property@abdf506]},legacy=false] (/192.168.1.103:54700) lost connection: Disconnected
+[12:08:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2041ms or 40 ticks behind
+[12:08:54] [User Authenticator #2/INFO]: UUID of player susuki_kamu_2358 is 88cc189e-7ebb-41bd-974c-74b557b4bac2
+[12:08:57] [Server thread/INFO]: susuki_kamu_2358[/192.168.1.103:54723] logged in with entity id 243 at (31.59632812249012, 74.0, -47.69999998807907)
+[12:08:57] [Server thread/INFO]: susuki_kamu_2358 joined the game
+[12:09:02] [User Authenticator #3/INFO]: UUID of player Lesa1809_tw is 292134c6-148e-4213-b89f-d29fdc2e03c4
+[12:09:03] [Server thread/INFO]: Lesa1809_tw[/127.0.0.1:51974] logged in with entity id 260 at (-78.66923954308713, 58.0, -16.91258501589591)
+[12:09:03] [Server thread/INFO]: Lesa1809_tw joined the game
+[12:09:24] [Server thread/INFO]: [Lesa1809_tw: Reloading!]
+[12:09:24] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[12:09:24] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[12:09:25] [Server thread/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[12:09:25] [Server thread/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[12:09:25] [Server thread/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[12:09:25] [Server thread/INFO]: Reloading ResourceManager: Default, CavesAndCliffsPreview.zip, DamegeDisplay
+[12:09:29] [Server thread/INFO]: Loaded 7 recipes
+[12:09:31] [Server thread/WARN]: Lesa1809_tw moved too quickly! -8.647861012678675,-1.9650000008940722,4.736759083886122
+[12:09:31] [Server thread/ERROR]: Couldn't load tag minecraft:load as it is missing following references: minecraft: (from DamegeDisplay)
+[12:09:31] [Server thread/INFO]: Loaded 1138 advancements
+[12:09:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 40493ms or 809 ticks behind
+[12:09:51] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[12:09:51] [Server thread/INFO]: a<--[HERE]
+[12:10:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2080ms or 41 ticks behind
+[12:10:46] [Server thread/INFO]: [Lesa1809_tw: Teleported Lesa1809_tw to susuki_kamu_2358]
+[12:10:46] [Server thread/WARN]: Lesa1809_tw moved too quickly! 206.57291675764534,8.0,-94.48131134414353
+[12:10:46] [Server thread/WARN]: Lesa1809_tw moved too quickly! 206.57291675764534,8.0,-94.48131134414353
+[12:10:46] [Server thread/WARN]: Lesa1809_tw moved too quickly! 206.57291675764534,8.0,-94.48131134414353
+[12:11:44] [Server thread/WARN]: Mismatch in destroy block pos: gg{x=33, y=74, z=-67} gg{x=34, y=75, z=-66}
+[12:12:58] [Server thread/WARN]: Mismatch in destroy block pos: gg{x=45, y=70, z=-71} gg{x=44, y=68, z=-71}
+[12:13:11] [Server thread/INFO]: [Lesa1809_tw: Teleported Lesa1809_tw to susuki_kamu_2358]
+[12:13:11] [Server thread/WARN]: Lesa1809_tw moved too quickly! 14.600000023841858,16.0,-8.885454871044615
+[12:13:11] [Server thread/WARN]: Lesa1809_tw moved too quickly! 14.600000023841858,16.0,-8.885454871044615
+[12:13:34] [Server thread/INFO]: <Lesa1809_tw> ./git backup
+[12:13:51] [Server thread/INFO]: <Lesa1809_tw> .//git push now
+[12:14:01] [Server thread/INFO]: [Lesa1809_tw: Teleported Lesa1809_tw to susuki_kamu_2358]
+[12:14:01] [Server thread/WARN]: Lesa1809_tw moved too quickly! -0.2803103779374396,3.121296840539202,-12.36126132882184
+[12:14:15] [Server thread/INFO]: [susuki_kamu_2358: Teleported susuki_kamu_2358 to Lesa1809_tw]
+[12:14:15] [Server thread/WARN]: susuki_kamu_2358 moved too quickly! 0.7806605360253513,0.7967356006687041,-14.923481360861572
+[12:14:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[12:14:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4885ms or 97 ticks behind
+[12:14:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2279ms or 45 ticks behind
+[12:16:35] [Server thread/INFO]: [Lesa1809_tw: Set own game mode to Spectator Mode]
+[12:16:37] [Server thread/INFO]: [Lesa1809_tw: Set own game mode to Survival Mode]
+[12:19:17] [Server thread/INFO]: Lesa1809_tw has made the advancement [Suit Up]
+[12:19:57] [Server thread/INFO]: susuki_kamu_2358 has made the advancement [What a Deal!]
+[12:20:50] [Server thread/INFO]: Lesa1809_tw has made the advancement [Hot Stuff]
+[12:21:05] [Server thread/INFO]: susuki_kamu_2358 fell out of the world
+[12:21:05] [Server thread/INFO]: [susuki_kamu_2358: Killed susuki_kamu_2358]
+[12:22:08] [Server thread/INFO]: [susuki_kamu_2358: Teleported susuki_kamu_2358 to Lesa1809_tw]
+[12:22:24] [Server thread/INFO]: susuki_kamu_2358 has made the advancement [Suit Up]
+[12:24:50] [Server thread/INFO]: Lesa1809_tw tried to swim in lava
+[12:24:55] [Server thread/INFO]: [Lesa1809_tw: Teleported Lesa1809_tw to susuki_kamu_2358]
+[12:24:55] [Server thread/WARN]: Lesa1809_tw moved too quickly! 138.00494368889386,-6.0,-281.9791500059445
+[12:26:09] [Server thread/INFO]: Lesa1809_tw tried to swim in lava
+[12:26:12] [Server thread/INFO]: [Lesa1809_tw: Teleported Lesa1809_tw to susuki_kamu_2358]
+[12:26:12] [Server thread/WARN]: Lesa1809_tw moved too quickly! 91.37082917516463,-10.998664020887858,-183.6304400309144
+[12:26:12] [Server thread/WARN]: Lesa1809_tw moved too quickly! 91.37082917516463,-10.998664020887858,-183.6304400309144
+[12:35:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2018ms or 40 ticks behind
+[12:38:40] [Server thread/INFO]: Lesa1809_tw burned to death
+[12:40:01] [Server thread/INFO]: susuki_kamu_2358 fell out of the world
+[12:40:01] [Server thread/INFO]: [susuki_kamu_2358: Killed susuki_kamu_2358]
+[12:40:11] [Server thread/INFO]: [susuki_kamu_2358: Teleported susuki_kamu_2358 to Lesa1809_tw]
+[12:40:11] [Server thread/WARN]: susuki_kamu_2358 moved too quickly! -167.71344876190219,-3.5625,201.82127632123635
+[12:40:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2131ms or 42 ticks behind
+[12:41:07] [Server thread/INFO]: susuki_kamu_2358 tried to swim in lava
+[12:47:54] [Server thread/INFO]: <Lesa1809_tw> 10
+[12:48:03] [Server thread/INFO]: <susuki_kamu_2358> fuck
+[12:48:08] [Server thread/INFO]: <Lesa1809_tw> 30
+[12:48:12] [Server thread/INFO]: <susuki_kamu_2358> fuck
+[12:48:14] [Server thread/INFO]: <Lesa1809_tw> 25
+[12:48:16] [Server thread/INFO]: <susuki_kamu_2358> fuck
+[12:48:20] [Server thread/INFO]: <Lesa1809_tw> 24
+[12:48:21] [Server thread/INFO]: <susuki_kamu_2358> fuck
+[12:48:29] [Server thread/INFO]: <Lesa1809_tw> 20
+[12:48:38] [Server thread/INFO]: <Lesa1809_tw> 15
+[12:48:46] [Server thread/INFO]: <Lesa1809_tw> 10
+[12:48:57] [Server thread/INFO]: <Lesa1809_tw> 5
+[12:49:02] [Server thread/INFO]: <Lesa1809_tw> 1
+[12:50:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
+[12:51:09] [Server thread/INFO]: [susuki_kamu_2358: Teleported susuki_kamu_2358 to Lesa1809_tw]
+[12:52:28] [Server thread/INFO]: [Lesa1809_tw: Gamerule randomTickSpeed is now set to: 3000]
+[12:52:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2024ms or 40 ticks behind
+[12:52:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8984ms or 179 ticks behind
+[12:53:06] [Server thread/INFO]: [Lesa1809_tw: Gamerule randomTickSpeed is now set to: 3]
+[12:53:55] [Server thread/INFO]: [susuki_kamu_2358: Set own game mode to Creative Mode]
+[12:54:05] [Server thread/INFO]: [susuki_kamu_2358: Set own game mode to Survival Mode]
+[12:54:12] [Server thread/INFO]: [susuki_kamu_2358: Set own game mode to Creative Mode]
+[12:54:18] [Server thread/INFO]: [susuki_kamu_2358: Set own game mode to Survival Mode]
+[12:54:19] [Server thread/INFO]: [Lesa1809_tw: Removed 65 items from player Lesa1809_tw]
+[12:54:30] [Server thread/INFO]: [Lesa1809_tw: Removed 1 items from player Lesa1809_tw]
+[12:54:33] [Server thread/INFO]: [Lesa1809_tw: Set own game mode to Creative Mode]
+[12:54:41] [Server thread/INFO]: [susuki_kamu_2358: Set own game mode to Creative Mode]
+[12:55:04] [Server thread/INFO]: [Lesa1809_tw: Set own game mode to Adventure Mode]
+[12:55:11] [Server thread/INFO]: [susuki_kamu_2358: Set own game mode to Survival Mode]
+[12:55:22] [Server thread/INFO]: [Lesa1809_tw: Set own game mode to Survival Mode]
+[12:56:14] [Server thread/INFO]: Lesa1809_tw has made the advancement [Wax On]
+[12:56:21] [Server thread/INFO]: susuki_kamu_2358 has made the advancement [Wax On]
+[12:58:04] [Server thread/INFO]: susuki_kamu_2358 went up in flames
+[12:58:09] [Server thread/INFO]: [Server] hi
+[12:58:43] [Server thread/INFO]: <Lesa1809_tw> ...
+[12:58:53] [Server thread/INFO]: <Lesa1809_tw> ...無言
+[12:59:30] [Server thread/INFO]: [Lesa1809_tw: Teleported susuki_kamu_2358 to Lesa1809_tw]
+[13:03:03] [Server thread/INFO]: [susuki_kamu_2358: Teleported susuki_kamu_2358 to Lesa1809_tw]
+[13:03:03] [Server thread/WARN]: susuki_kamu_2358 moved too quickly! 1.2807138019514923,4.0,39.95356595061736
+[13:03:03] [Server thread/WARN]: susuki_kamu_2358 moved too quickly! 1.2807138019514923,4.0,39.95356595061736
+[13:04:24] [Server thread/INFO]: susuki_kamu_2358 went up in flames
+[13:04:31] [Server thread/INFO]: Lesa1809_tw went up in flames
+[13:04:47] [Server thread/INFO]: Lesa1809_tw went up in flames
+[13:04:47] [Server thread/INFO]: susuki_kamu_2358 went up in flames
+[13:05:28] [Server thread/INFO]: [Lesa1809_tw: Teleported Lesa1809_tw to susuki_kamu_2358]
+[13:05:28] [Server thread/WARN]: Lesa1809_tw moved too quickly! -20.761005301303825,1.0,13.496514389174013
+[13:05:28] [Server thread/WARN]: Lesa1809_tw moved too quickly! -20.761005301303825,1.0,13.496514389174013
+[13:05:28] [Server thread/WARN]: Lesa1809_tw moved too quickly! -20.761005301303825,1.0,13.496514389174013
+[13:05:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2234ms or 44 ticks behind
+[13:28:06] [Server thread/INFO]: Lesa1809_tw has made the advancement [Wax Off]
+[13:28:14] [Server thread/INFO]: [Lesa1809_tw: Set own game mode to Creative Mode]
+[13:29:06] [Server thread/INFO]: [Lesa1809_tw: Set own game mode to Survival Mode]
+[13:29:19] [Server thread/INFO]: [Lesa1809_tw: Removed 1 items from player Lesa1809_tw]
+[13:29:55] [Server thread/INFO]: [Lesa1809_tw: Teleported Lesa1809_tw to susuki_kamu_2358]
+[13:34:05] [Server thread/INFO]: [Lesa1809_tw: Teleported Lesa1809_tw to susuki_kamu_2358]
+[13:34:35] [Server thread/INFO]: Lesa1809_tw burned to death
+[13:34:39] [Server thread/INFO]: [Lesa1809_tw: Teleported Lesa1809_tw to susuki_kamu_2358]
+[13:34:39] [Server thread/WARN]: Lesa1809_tw moved too quickly! -86.05973618679583,-11.0,57.027874324894896
+[13:39:17] [Server thread/INFO]: [Lesa1809_tw: Teleported Lesa1809_tw to susuki_kamu_2358]
+[13:40:29] [Server thread/INFO]: [Lesa1809_tw: Teleported Lesa1809_tw to susuki_kamu_2358]
+[13:47:15] [Server thread/INFO]: <susuki_kamu_2358> zzzzzz
+[13:47:18] [Server thread/INFO]: <susuki_kamu_2358> zzzzzzzzzzzzzzzzz
+[13:47:21] [Server thread/INFO]: <susuki_kamu_2358> zzzzzzzzzzzzzzzzzzzzzzzzzz
+[13:47:31] [Server thread/INFO]: <susuki_kamu_2358> zzzzzzzzzz
+[13:47:44] [Server thread/INFO]: susuki_kamu_2358 hit the ground too hard
+[13:48:12] [Server thread/INFO]: Lesa1809_tw was shot by Skeleton
+[13:48:33] [Server thread/INFO]: [Lesa1809_tw: Teleported Lesa1809_tw to susuki_kamu_2358]
+[13:48:33] [Server thread/WARN]: Lesa1809_tw moved too quickly! -25.79893345410641,2.0013359791121417,4.51667097263897
+[13:49:18] [Server thread/INFO]: [susuki_kamu_2358: Teleported susuki_kamu_2358 to Lesa1809_tw]
+[13:49:18] [Server thread/WARN]: susuki_kamu_2358 moved too quickly! 19.730202769668203,-8.0,-23.453120535869708
+[13:49:18] [Server thread/WARN]: susuki_kamu_2358 moved too quickly! 19.730202769668203,-8.0,-23.453120535869708
+[13:49:59] [Server thread/INFO]: Lesa1809_tw hit the ground too hard
+[13:50:09] [Server thread/INFO]: susuki_kamu_2358 fell from a high place
+[13:50:50] [Server thread/INFO]: [Lesa1809_tw: Teleported Lesa1809_tw to susuki_kamu_2358]
+[13:50:50] [Server thread/WARN]: Lesa1809_tw moved too quickly! -58.773004826823794,0.17675927506424216,-48.77554840371189
+[13:56:51] [Server thread/INFO]: Lesa1809_tw lost connection: Disconnected
+[13:56:51] [Server thread/INFO]: Lesa1809_tw left the game
+[13:59:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2225ms or 44 ticks behind
+[14:00:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 26112ms or 522 ticks behind
+[14:00:18] [User Authenticator #4/INFO]: UUID of player Lesa1809_tw is 292134c6-148e-4213-b89f-d29fdc2e03c4
+[14:00:21] [Server thread/INFO]: Lesa1809_tw[/127.0.0.1:58763] logged in with entity id 13175 at (-163.40298745207815, 63.0, 1.8579275958412351)
+[14:00:22] [Server thread/INFO]: Lesa1809_tw joined the game
+[14:00:32] [Server thread/WARN]: susuki_kamu_2358 moved too quickly! -9.801795396086675,0.23152379758701613,-2.3640967166722824
+[14:00:55] [Server thread/INFO]: <susuki_kamu_2358> zzzzzzzzzz
+[14:00:57] [Server thread/INFO]: <susuki_kamu_2358> zzzzzzzzzzzzzzz
+[14:00:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 30542ms or 610 ticks behind
+[14:00:58] [Server thread/INFO]: <susuki_kamu_2358> zzzzzzzzzzzzzzzzzzz
+[14:00:59] [Server thread/INFO]: <susuki_kamu_2358> zzzzzzzzzzzzzzzzzzzzzzzz
+[14:01:02] [Server thread/INFO]: <susuki_kamu_2358> zzzzzzzzzzzzzzzzzzz
+[14:01:03] [Server thread/INFO]: <susuki_kamu_2358> z
+[14:01:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4210ms or 84 ticks behind
+[14:01:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10413ms or 208 ticks behind
+[14:04:31] [Server thread/INFO]: [Lesa1809_tw: Teleported Lesa1809_tw to susuki_kamu_2358]
+[14:05:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2094ms or 41 ticks behind
+[14:07:49] [Server thread/INFO]: susuki_kamu_2358 has made the advancement [Voluntary Exile]
+[14:09:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3198ms or 63 ticks behind
+[14:10:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2017ms or 40 ticks behind
+[14:12:32] [Server thread/INFO]: <susuki_kamu_2358> zzzzzzz
+[14:12:40] [Server thread/INFO]: <susuki_kamu_2358> z
+[14:12:41] [Server thread/INFO]: <susuki_kamu_2358> z
+[14:12:42] [Server thread/INFO]: <susuki_kamu_2358> z
+[14:13:05] [Server thread/INFO]: Lesa1809_tw lost connection: Disconnected
+[14:13:05] [Server thread/INFO]: Lesa1809_tw left the game
+[14:13:10] [User Authenticator #5/INFO]: UUID of player Lesa1809_tw is 292134c6-148e-4213-b89f-d29fdc2e03c4
+[14:13:11] [Server thread/INFO]: Lesa1809_tw[/127.0.0.1:61258] logged in with entity id 14594 at (-135.5, 65.0, 3.5)
+[14:13:13] [Server thread/INFO]: Lesa1809_tw joined the game
+[14:13:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4859ms or 97 ticks behind
+[14:13:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2018ms or 40 ticks behind
+[14:15:56] [Server thread/INFO]: [Lesa1809_tw: Set own game mode to Creative Mode]
+[14:16:15] [Server thread/INFO]: [Lesa1809_tw: Set own game mode to Survival Mode]
+[14:16:43] [Server thread/INFO]: Lesa1809_tw lost connection: Disconnected
+[14:16:43] [Server thread/INFO]: Lesa1809_tw left the game
+[14:17:26] [Server thread/INFO]: susuki_kamu_2358 lost connection: Disconnected
+[14:17:26] [Server thread/INFO]: susuki_kamu_2358 left the game
+[14:24:54] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[14:24:54] [Server thread/INFO]: ahstop<--[HERE]
+[14:24:59] [Server thread/INFO]: Stopping the server
+[14:24:59] [Server thread/INFO]: Stopping server
+[14:24:59] [Server thread/INFO]: Saving players
+[14:24:59] [Server thread/INFO]: Saving worlds
+[14:24:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[生存]'/minecraft:overworld
+[14:24:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (SV): All chunks are saved
+[14:24:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[生存]'/minecraft:the_nether
+[14:24:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:24:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[生存]'/minecraft:the_end
+[14:24:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14:24:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (SV): All chunks are saved
+[14:24:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:24:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved

@@ -1,0 +1,57 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&1選單'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 1
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'menu'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: 'sound: note pling; tell: &e選單已開啟.'
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+homecmd:
+  COMMAND: 'home'
+  NAME: '&e傳送到家'
+  ID: bed
+  POSITION-X: 1
+  POSITION-Y: 1
+
+sethomecmd:
+  COMMAND: 'sethome'
+  NAME: '&e設定家'
+  ID: redstone_block
+  POSITION-X: 2
+  POSITION-Y: 1
+
+menu-close-no-commands-no-lore:
+  NAME: '&6Close the menu'
+  ID: redstone lamp
+  POSITION-X: 9
+  POSITION-Y: 1

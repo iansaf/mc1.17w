@@ -1,155 +1,83 @@
-[13:19:08] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[13:19:09] [main/INFO]: Reloading ResourceManager: Default, CavesAndCliffsPreview.zip, DamegeDisplay, bukkit
-[13:19:11] [Worker-Main-2/INFO]: Loaded 7 recipes
-[13:19:11] [Worker-Main-2/ERROR]: Couldn't load tag minecraft:load as it is missing following references: minecraft: (from DamegeDisplay)
-[13:19:13] [Server thread/INFO]: Starting minecraft server version 1.17
-[13:19:13] [Server thread/INFO]: Loading properties
-[13:19:13] [Server thread/INFO]: This server is running Paper version git-Paper-68 (MC: 1.17) (Implementing API version 1.17-R0.1-SNAPSHOT) (Git: f18dc1e)
-[13:19:13] [Server thread/INFO]: Debug logging is disabled
-[13:19:13] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[13:19:13] [Server thread/INFO]: Using 4 threads for Netty based IO
-[13:19:13] [Server thread/INFO]: Default game type: SURVIVAL
-[13:19:13] [Server thread/INFO]: Generating keypair
-[13:19:14] [Server thread/INFO]: Starting Minecraft server on *:25565
-[13:19:14] [Server thread/INFO]: Using default channel type
-[13:19:15] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[13:19:21] [Server thread/WARN]: Legacy plugin SetHome v5.1.2 does not specify an api-version.
-[13:19:21] [Server thread/WARN]: Legacy plugin ChestCommands v3.1.4 does not specify an api-version.
-[13:19:22] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v19.5
-[13:19:22] [Server thread/INFO]: [SetHome] Loading SetHome v5.1.2
-[13:19:22] [Server thread/INFO]: [ChestCommands] Loading ChestCommands v3.1.4
-[13:19:22] [Server thread/INFO]: [DiscordSRV] Loading DiscordSRV v1.23.0
-[13:19:22] [Server thread/INFO]: [TogglePvp] Loading TogglePvp v4.0
-[13:19:22] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[13:19:22] [Server thread/INFO]: Preparing level "SV"
-[13:19:22] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[13:19:25] [Server thread/INFO]: Time elapsed: 2149 ms
-[13:19:25] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[13:19:26] [Server thread/INFO]: Time elapsed: 1445 ms
-[13:19:26] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[13:19:29] [Server thread/INFO]: Time elapsed: 2542 ms
-[13:19:29] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v19.5
-[13:19:30] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled! 
-[13:19:30] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
-[13:19:30] [Server thread/INFO]: --------------------
-[13:19:30] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
-[13:19:30] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
-[13:19:30] [Server thread/INFO]: --------------------
-[13:19:30] [Server thread/INFO]: [SetHome] Enabling SetHome v5.1.2*
-[13:19:30] [Server thread/INFO]: [ChestCommands] Enabling ChestCommands v3.1.4*
-[13:19:30] [Server thread/WARN]: [ChestCommands] Vault with a compatible economy plugin was not found! Icons with a PRICE or commands that give money will not work.
-[13:19:30] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.23.0
-[13:19:30] [Server thread/INFO]: [TogglePvp] Enabling TogglePvp v4.0
-[13:19:30] [Server thread/INFO]: [TogglePvp] Enabling TogglePvp
-[13:19:30] [Server thread/INFO]: [TogglePvp] Loading Worlds...
-[13:19:30] [Server thread/INFO]: [TogglePvp] Added World: Pvp
-[13:19:30] [Server thread/INFO]: [TogglePvp] Added World: Testing_World
-[13:19:30] [Server thread/INFO]: [TogglePvp] Added World: Another_one
-[13:19:30] [Server thread/INFO]: [TogglePvp] Added World: And_so_on
-[13:19:30] [Server thread/INFO]: [TogglePvp] Registering Banned Potion Effects
-[13:19:30] [Server thread/INFO]: [TogglePvp] Enabled TogglePvp
-[13:19:31] [Server thread/INFO]: Running delayed init tasks
-[13:19:31] [Server thread/INFO]: Done (18.011s)! For help, type "help"
-[13:19:31] [Server thread/INFO]: Timings Reset
-[13:19:35] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] ===================================================
-[13:19:35] [DiscordSRV - Initialization/ERROR]: [DiscordSRV]  
-[13:19:35] [DiscordSRV - Initialization/ERROR]: [DiscordSRV]  DiscordSRV could not connect to Discord because:
-[13:19:35] [DiscordSRV - Initialization/ERROR]: [DiscordSRV]  The bot token is invalid
-[13:19:35] [DiscordSRV - Initialization/ERROR]: [DiscordSRV]  
-[13:19:35] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] ===================================================
-[13:19:35] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.23.0
-[13:19:35] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] 伺服器已關閉，耗時81ms
-[13:19:36] [pool-9-thread-1/WARN]: [DiscordSRV] Update check failed: zip file closed
-[13:20:32] [User Authenticator #1/INFO]: UUID of player Lesa1809_tw is 292134c6-148e-4213-b89f-d29fdc2e03c4
-[13:20:33] [Server thread/INFO]: Lesa1809_tw joined the game
-[13:20:33] [Server thread/INFO]: Lesa1809_tw[/127.0.0.1:63109] logged in with entity id 96 at ([SV]-151.33417105382657, 63.9375, 4.942667930029506)
-[13:22:55] [User Authenticator #2/INFO]: UUID of player susuki_kamu_2358 is 88cc189e-7ebb-41bd-974c-74b557b4bac2
-[13:22:55] [Server thread/INFO]: susuki_kamu_2358 joined the game
-[13:22:55] [Server thread/INFO]: susuki_kamu_2358[/192.168.1.103:62471] logged in with entity id 309 at ([SV]-140.688974261363, 64.0, 4.9350652305882425)
-[13:24:09] [Server thread/INFO]: Lesa1809_tw issued server command: /menu
-[13:24:10] [Server thread/WARN]: [ChestCommands] Invalid sound "note pling".
-[13:24:22] [Server thread/INFO]: susuki_kamu_2358 issued server command: /menu
-[13:24:22] [Server thread/WARN]: [ChestCommands] Invalid sound "note pling".
-[13:24:29] [Server thread/INFO]: Lesa1809_tw issued server command: /sethome
-[13:24:52] [Server thread/INFO]: susuki_kamu_2358 issued server command: /menu
-[13:24:52] [Server thread/WARN]: [ChestCommands] Invalid sound "note pling".
-[13:24:53] [Server thread/INFO]: susuki_kamu_2358 issued server command: /sethome
-[13:25:05] [Server thread/INFO]: susuki_kamu_2358 issued server command: /menu
-[13:25:05] [Server thread/WARN]: [ChestCommands] Invalid sound "note pling".
-[13:25:06] [Server thread/INFO]: susuki_kamu_2358 issued server command: /home
-[13:25:21] [Server thread/INFO]: susuki_kamu_2358 issued server command: /menu
-[13:25:21] [Server thread/WARN]: [ChestCommands] Invalid sound "note pling".
-[13:25:23] [Server thread/INFO]: susuki_kamu_2358 issued server command: /home
-[13:26:20] [Server thread/INFO]: Lesa1809_tw issued server command: /gamerule randomTickSpeed
-[13:26:58] [Server thread/INFO]: Lesa1809_tw issued server command: /menu
-[13:26:58] [Server thread/WARN]: [ChestCommands] Invalid sound "note pling".
-[13:27:37] [Server thread/INFO]: Lesa1809_tw issued server command: /deop susuki_kamu_2358
-[13:27:37] [Server thread/INFO]: [Lesa1809_tw: Made susuki_kamu_2358 no longer a server operator]
-[13:27:51] [Server thread/INFO]: Lesa1809_tw issued server command: /pvp toggle
-[13:27:58] [Server thread/INFO]: Lesa1809_tw issued server command: /pvp toggle
-[13:28:03] [Server thread/INFO]: Lesa1809_tw issued server command: /pvp toggle
-[13:28:14] [Server thread/INFO]: Lesa1809_tw issued server command: /pvp true
-[13:28:20] [Server thread/INFO]: Lesa1809_tw issued server command: /pvp on
-[13:28:31] [Server thread/INFO]: susuki_kamu_2358 issued server command: /
-[13:29:09] [Server thread/INFO]: Lesa1809_tw lost connection: Disconnected
-[13:29:09] [Server thread/INFO]: Lesa1809_tw left the game
-[13:29:12] [User Authenticator #3/INFO]: UUID of player Lesa1809_tw is 292134c6-148e-4213-b89f-d29fdc2e03c4
-[13:29:12] [Server thread/INFO]: Lesa1809_tw joined the game
-[13:29:12] [Server thread/INFO]: Lesa1809_tw[/127.0.0.1:60254] logged in with entity id 910 at ([SV]-142.00122705603397, 63.0, -11.849536498205648)
-[13:29:37] [Server thread/INFO]: Lesa1809_tw issued server command: /home
-[13:30:04] [Server thread/INFO]: susuki_kamu_2358 fell from a high place
-[13:30:17] [Server thread/INFO]: susuki_kamu_2358 issued server command: /help
-[13:30:49] [Server thread/INFO]: susuki_kamu_2358 issued server command: /meou
-[13:31:06] [Server thread/INFO]: susuki_kamu_2358 issued server command: /menu
-[13:31:16] [Server thread/INFO]: Lesa1809_tw issued server command: /op susuki_kamu_2358
-[13:31:16] [Server thread/INFO]: [Lesa1809_tw: Made susuki_kamu_2358 a server operator]
-[13:33:27] [Server thread/INFO]: Lesa1809_tw issued server command: /data
-[13:33:33] [Server thread/INFO]: Lesa1809_tw issued server command: /j
-[13:33:40] [Server thread/INFO]: Lesa1809_tw issued server command: /menu
-[13:33:40] [Server thread/WARN]: [ChestCommands] Invalid sound "note pling".
-[13:33:42] [Server thread/INFO]: Lesa1809_tw issued server command: /home
-[13:33:50] [Server thread/INFO]: Lesa1809_tw issued server command: /menu
-[13:33:50] [Server thread/WARN]: [ChestCommands] Invalid sound "note pling".
-[13:34:01] [Server thread/INFO]: susuki_kamu_2358 issued server command: /menu
-[13:34:01] [Server thread/WARN]: [ChestCommands] Invalid sound "note pling".
-[13:34:15] [Server thread/INFO]: Lesa1809_tw issued server command: /menu
-[13:34:15] [Server thread/WARN]: [ChestCommands] Invalid sound "note pling".
-[13:34:44] [Server thread/INFO]: Lesa1809_tw issued server command: /pvptoggle
-[13:36:35] [Server thread/INFO]: Lesa1809_tw issued server command: /menu
-[13:36:36] [Server thread/WARN]: [ChestCommands] Invalid sound "note pling".
-[13:36:49] [Server thread/INFO]: Lesa1809_tw issued server command: /home
-[13:37:08] [Server thread/INFO]: Lesa1809_tw issued server command: /menu
-[13:37:08] [Server thread/WARN]: [ChestCommands] Invalid sound "note pling".
-[13:37:12] [Server thread/INFO]: Lesa1809_tw issued server command: /home
-[13:43:22] [Async Chat Thread - #0/INFO]: <susuki_kamu_2358> ZZZZZ
-[13:43:23] [Async Chat Thread - #0/INFO]: <susuki_kamu_2358> ZZZZZZZZZZZZZZ
-[13:43:45] [Server thread/INFO]: susuki_kamu_2358 was slain by Zombie
-[13:45:16] [Server thread/INFO]: Lesa1809_tw issued server command: /co
-[13:45:37] [Server thread/INFO]: Lesa1809_tw issued server command: /co rollback time: 1m radius: 20
-[13:47:30] [Server thread/INFO]: Stopping the server
-[13:47:30] [Server thread/INFO]: Stopping server
-[13:47:30] [Server thread/INFO]: [TogglePvp] Disabling TogglePvp v4.0
-[13:47:30] [Server thread/INFO]: [TogglePvp] Disabled TogglePvp
-[13:47:30] [Server thread/INFO]: [ChestCommands] Disabling ChestCommands v3.1.4
-[13:47:30] [Server thread/INFO]: [SetHome] Disabling SetHome v5.1.2
-[13:47:30] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v19.5
-[13:47:30] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
-[13:47:31] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v19.5
-[13:47:31] [Server thread/INFO]: Saving players
-[13:47:31] [Server thread/INFO]: Lesa1809_tw lost connection: Server closed
-[13:47:31] [Server thread/INFO]: Lesa1809_tw left the game
-[13:47:31] [Server thread/INFO]: susuki_kamu_2358 lost connection: Server closed
-[13:47:31] [Server thread/INFO]: susuki_kamu_2358 left the game
-[13:47:31] [Server thread/INFO]: Saving worlds
-[13:47:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[SV]'/minecraft:overworld
-[13:47:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (SV): All chunks are saved
-[13:47:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[SV_nether]'/minecraft:the_nether
-[13:47:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[13:47:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[SV_the_end]'/minecraft:the_end
-[13:47:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[13:47:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (SV): All chunks are saved
-[13:47:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[13:47:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[13:47:32] [Server thread/INFO]: Flushing Chunk IO
-[13:47:32] [Server thread/INFO]: Closing Thread Pool
-[13:47:32] [Server thread/INFO]: Closing Server
+[13:50:17] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[13:50:18] [main/INFO]: Reloading ResourceManager: Default, CavesAndCliffsPreview.zip, DamegeDisplay, bukkit
+[13:50:22] [Worker-Main-2/INFO]: Loaded 7 recipes
+[13:50:22] [Worker-Main-2/ERROR]: Couldn't load tag minecraft:load as it is missing following references: minecraft: (from DamegeDisplay)
+[13:50:23] [Server thread/INFO]: Starting minecraft server version 1.17
+[13:50:23] [Server thread/INFO]: Loading properties
+[13:50:24] [Server thread/INFO]: This server is running Paper version git-Paper-68 (MC: 1.17) (Implementing API version 1.17-R0.1-SNAPSHOT) (Git: f18dc1e)
+[13:50:24] [Server thread/INFO]: Debug logging is disabled
+[13:50:24] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:50:24] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:50:24] [Server thread/INFO]: Default game type: SURVIVAL
+[13:50:24] [Server thread/INFO]: Generating keypair
+[13:50:24] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:50:24] [Server thread/INFO]: Using default channel type
+[13:50:25] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[13:50:33] [Server thread/WARN]: Legacy plugin SetHome v5.1.2 does not specify an api-version.
+[13:50:33] [Server thread/WARN]: Legacy plugin ChestCommands v3.1.4 does not specify an api-version.
+[13:50:33] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v19.5
+[13:50:33] [Server thread/INFO]: [SetHome] Loading SetHome v5.1.2
+[13:50:33] [Server thread/INFO]: [ChestCommands] Loading ChestCommands v3.1.4
+[13:50:33] [Server thread/INFO]: [DiscordSRV] Loading DiscordSRV v1.23.0
+[13:50:33] [Server thread/INFO]: [TogglePvp] Loading TogglePvp v4.0
+[13:50:33] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:50:33] [Server thread/INFO]: Preparing level "SV"
+[13:50:34] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[13:50:36] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[13:50:36] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[13:50:36] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[13:50:36] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[13:50:36] [Server thread/INFO]: Time elapsed: 1977 ms
+[13:50:36] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[13:50:38] [Server thread/INFO]: Time elapsed: 1657 ms
+[13:50:38] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[13:50:39] [Server thread/INFO]: Time elapsed: 1768 ms
+[13:50:39] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v19.5
+[13:50:40] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled! 
+[13:50:40] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+[13:50:40] [Server thread/INFO]: --------------------
+[13:50:40] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
+[13:50:40] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[13:50:40] [Server thread/INFO]: --------------------
+[13:50:40] [Server thread/INFO]: [SetHome] Enabling SetHome v5.1.2*
+[13:50:40] [Server thread/INFO]: [ChestCommands] Enabling ChestCommands v3.1.4*
+[13:50:40] [Server thread/WARN]: [ChestCommands] Vault with a compatible economy plugin was not found! Icons with a PRICE or commands that give money will not work.
+[13:50:40] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.23.0
+[13:50:40] [Server thread/INFO]: [TogglePvp] Enabling TogglePvp v4.0
+[13:50:40] [Server thread/INFO]: [TogglePvp] Enabling TogglePvp
+[13:50:40] [Server thread/INFO]: [TogglePvp] Loading Worlds...
+[13:50:40] [Server thread/INFO]: [TogglePvp] Added World: Pvp
+[13:50:40] [Server thread/INFO]: [TogglePvp] Added World: Testing_World
+[13:50:40] [Server thread/INFO]: [TogglePvp] Added World: Another_one
+[13:50:40] [Server thread/INFO]: [TogglePvp] Added World: And_so_on
+[13:50:40] [Server thread/INFO]: [TogglePvp] Registering Banned Potion Effects
+[13:50:40] [Server thread/INFO]: [TogglePvp] Enabled TogglePvp
+[13:50:41] [Server thread/INFO]: Running delayed init tasks
+[13:50:41] [Server thread/INFO]: Done (17.428s)! For help, type "help"
+[13:50:41] [Server thread/INFO]: Timings Reset
+[13:50:41] [Server thread/INFO]: Stopping the server
+[13:50:41] [Server thread/INFO]: Stopping server
+[13:50:41] [Server thread/INFO]: [TogglePvp] Disabling TogglePvp v4.0
+[13:50:41] [Server thread/INFO]: [TogglePvp] Disabled TogglePvp
+[13:50:41] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.23.0
+[13:50:42] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] 伺服器已關閉，耗時344ms
+[13:50:42] [Server thread/INFO]: [ChestCommands] Disabling ChestCommands v3.1.4
+[13:50:42] [Server thread/INFO]: [SetHome] Disabling SetHome v5.1.2
+[13:50:42] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v19.5
+[13:50:42] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
+[13:50:43] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v19.5
+[13:50:43] [Server thread/INFO]: Saving players
+[13:50:43] [Server thread/INFO]: Saving worlds
+[13:50:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[SV]'/minecraft:overworld
+[13:50:43] [pool-9-thread-1/WARN]: [DiscordSRV] Update check failed: zip file closed
+[13:51:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (SV): All chunks are saved
+[13:51:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[SV_nether]'/minecraft:the_nether
+[13:51:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:51:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[SV_the_end]'/minecraft:the_end
+[13:51:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:51:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (SV): All chunks are saved
+[13:51:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:51:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:51:10] [Server thread/INFO]: Flushing Chunk IO
+[13:51:10] [Server thread/INFO]: Closing Thread Pool
+[13:51:10] [Server thread/INFO]: Closing Server

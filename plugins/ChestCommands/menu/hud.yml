@@ -1,0 +1,70 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&1HUD選單'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 1
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'hudmenu'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: 'tell: &eHUD選單已開啟.'
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+opencmd:
+  COMMAND: 'hud enable'
+  NAME: '&e開啟HUD'
+  ID: redstone_block
+  POSITION-X: 1
+  POSITION-Y: 1
+
+closecmd:
+  COMMAND: 'hud disable'
+  NAME: '&e關閉HUD'
+  ID: coal_block
+  POSITION-X: 2
+  POSITION-Y: 1
+
+dark_opencmd:
+  COMMAND: 'hud darkMode enabled'
+  NAME: '&e開啟HUD黑暗模式'
+  ID: 'obsidian'
+  POSITION-X: 4
+  POSITION-Y: 1
+
+dark_closecmd:
+  COMMAND: 'hud darkMode disabled'
+  NAME: '&e關閉HUD黑暗模式'
+  ID: glowstone
+  POSITION-X: 5
+  POSITION-Y: 1
+
+menu-close-no-commands-no-lore:
+  NAME: '&6關閉選單'
+  ID: redstone lamp
+  POSITION-X: 9
+  POSITION-Y: 1

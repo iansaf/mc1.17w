@@ -23,7 +23,7 @@ menu-settings:
 
   # This command command will be execute when the menu is opened.
   # Supports all the icon command types.
-  open-action: 'sound: note pling; tell: &e選單已開啟.'
+  open-action: 'tell: &e選單已開啟.'
 
   # open-with-item - OPTIONAL
   # The menu will open only right-clicking with orange wool [35:1]
@@ -53,7 +53,7 @@ sethomecmd:
   POSITION-X: 2
   POSITION-Y: 1
 
-trashcmd:
+rollbackcmd:
   COMMAND: 'co rollback radius:15 action:-block time:30s'
   NAME: '&e還原爆炸'
   ID: 'lava_bucket'
@@ -61,10 +61,17 @@ trashcmd:
   POSITION-Y: 1
 
 give-combk: 
-  COMMAND: 'give @p command_block{HideFlags:1,display:{Name:'[{"text":"","italic":false},{"text":"選單"}]',Lore:['[{"text":"","italic":false},{"text":"這是一個超方便的選單"}]']},Enchantments:[{"id":"minecraft:luck_of_the_sea","lvl":1}]} 1'
+  COMMAND: 'give @p command_block{HideFlags:1,display:{Name:''[{"text":"","italic":false},{"text":"選單"}]'',Lore:[''[{"text":"","italic":false},{"text":"這是一個超方便的選單"}]'']},Enchantments:[{"id":"minecraft:luck_of_the_sea","lvl":1}]} 1'
   NAME: '&6取得選單'
   ID: 'command_block'
   POSITION-X: 8
+  POSITION-Y: 1
+
+openhudmenu: 
+  COMMAND: 'open: hud.yml'
+  NAME: '&e開啟HUD選單'
+  ID: 'glowstone'
+  POSITION-X: 4
   POSITION-Y: 1
 
 menu-close-no-commands-no-lore:

@@ -1,282 +1,212 @@
-[19:17:23] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[19:17:24] [main/INFO]: Reloading ResourceManager: Default, CavesAndCliffsPreview.zip, DamegeDisplay, bukkit
-[19:17:26] [Worker-Main-1/INFO]: Loaded 7 recipes
-[19:17:27] [Worker-Main-1/ERROR]: Couldn't load tag minecraft:load as it is missing following references: minecraft: (from DamegeDisplay)
-[19:17:34] [Server thread/INFO]: Starting minecraft server version 1.17
-[19:17:34] [Server thread/INFO]: Loading properties
-[19:17:34] [Server thread/INFO]: This server is running Paper version git-Paper-68 (MC: 1.17) (Implementing API version 1.17-R0.1-SNAPSHOT) (Git: f18dc1e)
-[19:17:34] [Server thread/INFO]: Debug logging is disabled
-[19:17:34] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[19:17:34] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:17:34] [Server thread/INFO]: Default game type: SURVIVAL
-[19:17:34] [Server thread/INFO]: Generating keypair
-[19:17:35] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:17:35] [Server thread/INFO]: Using default channel type
-[19:17:36] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[19:17:42] [Server thread/WARN]: Legacy plugin SetHome v5.1.2 does not specify an api-version.
-[19:17:42] [Server thread/WARN]: Legacy plugin ChestCommands v3.1.4 does not specify an api-version.
-[19:17:42] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v19.5
-[19:17:42] [Server thread/INFO]: [JoinMessagePlus] Loading JoinMessagePlus v3.3
-[19:17:42] [Server thread/INFO]: [SetHome] Loading SetHome v5.1.2
-[19:17:42] [Server thread/INFO]: [DefinedHUD] Loading DefinedHUD v0.1
-[19:17:42] [Server thread/INFO]: [ChestCommands] Loading ChestCommands v3.1.4
-[19:17:42] [Server thread/INFO]: [DiscordSRV] Loading DiscordSRV v1.23.0
-[19:17:42] [Server thread/INFO]: [UltimateTrash] Loading UltimateTrash v1.0.5
-[19:17:42] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:17:42] [Server thread/INFO]: Preparing level "SV"
-[19:17:43] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[19:17:45] [Server thread/INFO]: Time elapsed: 1757 ms
-[19:17:45] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[19:17:46] [Server thread/INFO]: Time elapsed: 1061 ms
-[19:17:46] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[19:17:47] [Server thread/INFO]: Time elapsed: 843 ms
-[19:17:47] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v19.5
-[19:17:47] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled! 
-[19:17:47] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
-[19:17:47] [Server thread/INFO]: --------------------
-[19:17:47] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
-[19:17:47] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
-[19:17:47] [Server thread/INFO]: --------------------
-[19:17:47] [Server thread/INFO]: [JoinMessagePlus] Enabling JoinMessagePlus v3.3
-[19:17:47] [Server thread/INFO]: [JoinMessagePlus] [#]==========< JoinMessagePlus >==========[#]
-[19:17:47] [Server thread/INFO]: [JoinMessagePlus] Version: 3.3
-[19:17:47] [Server thread/INFO]: [JoinMessagePlus] Web: https://dev.bukkit.org/bukkit-plugins/join-message-plus/
-[19:17:47] [Server thread/INFO]: [JoinMessagePlus] Mode: BungeeCord + Standalone
-[19:17:47] [Server thread/INFO]: [JoinMessagePlus] Plugin by AndyCraftz
-[19:17:47] [Server thread/INFO]: [SetHome] Enabling SetHome v5.1.2*
-[19:17:47] [Server thread/INFO]: [DefinedHUD] Enabling DefinedHUD v0.1
-[19:17:47] [Server thread/INFO]: [DefinedHUD] DefinedHUD Enabling...
-[19:17:47] [Server thread/INFO]: [DefinedHUD] >> DefinedHUD enabled successfully! Server version: v1_17_R1
-[19:17:47] [Server thread/INFO]: [ChestCommands] Enabling ChestCommands v3.1.4*
-[19:17:47] [Server thread/WARN]: [ChestCommands] Vault with a compatible economy plugin was not found! Icons with a PRICE or commands that give money will not work.
-[19:17:47] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.23.0
-[19:17:47] [Server thread/INFO]: [UltimateTrash] Enabling UltimateTrash v1.0.5
-[19:17:47] [Server thread/INFO]: [UltimateTrash] UltimateTrash Enabled!
-[19:17:48] [Server thread/INFO]: Running delayed init tasks
-[19:17:48] [Server thread/INFO]: Done (14.665s)! For help, type "help"
-[19:17:49] [Server thread/INFO]: Timings Reset
-[19:17:53] [Log4j2-TF-1-AsyncLogger[AsyncContext@7852e922]-1/INFO]: [DiscordSRV] [JDA] Login Successful!
-[19:17:54] [Log4j2-TF-1-AsyncLogger[AsyncContext@7852e922]-1/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
-[19:17:55] [Log4j2-TF-1-AsyncLogger[AsyncContext@7852e922]-1/INFO]: [DiscordSRV] [JDA] Finished Loading!
-[19:17:55] [DiscordSRV - Initialization/INFO]: [DiscordSRV] 已找到伺服器 G:?服(741132667067826237)
-[19:17:55] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:歡迎訊息(741132667067826240)
-[19:17:55] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:規則(741135905837940817)
-[19:17:55] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:防疫資訊(839802420979564554)
-[19:17:55] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:防疫累計資訊(851029872637640726)
-[19:17:55] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:我的js-cdn更新資訊(842958887858339860)
-[19:17:55] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:尬聊-1(818110027301912587)
-[19:17:55] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:尬聊-2(741133605492883568)
-[19:17:55] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:尬聊-3(741135219301548080)
-[19:17:55] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:minecraft聊天室(859971645087416330)
-[19:17:55] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:minecraft-console(859971733800091668)
-[19:17:55] [DiscordSRV - Initialization/INFO]: [DiscordSRV] 控制台轉送已指派至頻道 TC:minecraft-console(859971733800091668)
-[19:17:55] [DiscordSRV - Initialization/INFO]: [DiscordSRV] 未啟用鉤取任何聊天插件
-[19:17:55] [pool-9-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (ae26c8fa7a85120ccb1cf9bc46d8de316c1a5db8)
-[19:18:10] [User Authenticator #1/INFO]: UUID of player Lesa1809_tw is 292134c6-148e-4213-b89f-d29fdc2e03c4
-[19:18:11] [Server thread/INFO]: [+] Lesa1809_tw
-[19:18:11] [Server thread/INFO]: Lesa1809_tw[/127.0.0.1:62006] logged in with entity id 98 at ([SV]-135.85649412339032, 65.0, -2.0536785229596144)
-[19:18:19] [Server thread/INFO]: Lesa1809_tw issued server command: /trash
-[19:18:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5023ms or 100 ticks behind
-[19:21:53] [Server thread/INFO]: Lesa1809_tw issued server command: /cc reload
-[19:21:58] [Server thread/INFO]: Lesa1809_tw issued server command: /menu
-[19:21:58] [Server thread/WARN]: [ChestCommands] Invalid sound "note pling".
-[19:21:59] [Server thread/INFO]: Lesa1809_tw issued server command: /trash
-[19:21:59] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "org.bukkit.inventory.ItemStack.setType(org.bukkit.Material)" because "is" is null
-[19:21:59] [Server thread/WARN]: 	at br.net.fabiozumbi12.UTrash.UTGui.lambda$Open$2(UTGui.java:114)
-[19:21:59] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_17_R1.scheduler.CraftTask.run(CraftTask.java:100)
-[19:21:59] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_17_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:468)
-[19:21:59] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1488)
-[19:21:59] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:477)
-[19:21:59] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1404)
-[19:21:59] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1180)
-[19:21:59] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:320)
-[19:21:59] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:831)
-[19:22:16] [Server thread/INFO]: Lesa1809_tw issued server command: /menu
-[19:22:16] [Server thread/WARN]: [ChestCommands] Invalid sound "note pling".
-[19:22:17] [Server thread/INFO]: Lesa1809_tw issued server command: /trash
-[19:22:18] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "org.bukkit.inventory.ItemStack.setType(org.bukkit.Material)" because "is" is null
-[19:22:18] [Server thread/WARN]: 	at br.net.fabiozumbi12.UTrash.UTGui.lambda$Open$2(UTGui.java:114)
-[19:22:18] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_17_R1.scheduler.CraftTask.run(CraftTask.java:100)
-[19:22:18] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_17_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:468)
-[19:22:18] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1488)
-[19:22:18] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:477)
-[19:22:18] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1404)
-[19:22:18] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1180)
-[19:22:18] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:320)
-[19:22:18] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:831)
-[19:22:20] [Server thread/INFO]: Lesa1809_tw issued server command: /trash
-[19:22:20] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "org.bukkit.inventory.ItemStack.setType(org.bukkit.Material)" because "is" is null
-[19:22:20] [Server thread/WARN]: 	at br.net.fabiozumbi12.UTrash.UTGui.lambda$Open$2(UTGui.java:114)
-[19:22:20] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_17_R1.scheduler.CraftTask.run(CraftTask.java:100)
-[19:22:20] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_17_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:468)
-[19:22:20] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1488)
-[19:22:20] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:477)
-[19:22:20] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1404)
-[19:22:20] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1180)
-[19:22:20] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:320)
-[19:22:20] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:831)
-[19:22:31] [Server thread/INFO]: Lesa1809_tw issued server command: /trash
-[19:22:37] [Server thread/INFO]: Lesa1809_tw issued server command: /trash
-[19:22:41] [Server thread/INFO]: Lesa1809_tw issued server command: /menu
-[19:22:41] [Server thread/WARN]: [ChestCommands] Invalid sound "note pling".
-[19:22:43] [Server thread/INFO]: Lesa1809_tw issued server command: /trash
-[19:22:43] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "org.bukkit.inventory.ItemStack.setType(org.bukkit.Material)" because "is" is null
-[19:22:43] [Server thread/WARN]: 	at br.net.fabiozumbi12.UTrash.UTGui.lambda$Open$2(UTGui.java:114)
-[19:22:43] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_17_R1.scheduler.CraftTask.run(CraftTask.java:100)
-[19:22:43] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_17_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:468)
-[19:22:43] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1488)
-[19:22:43] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:477)
-[19:22:43] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1404)
-[19:22:43] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1180)
-[19:22:43] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:320)
-[19:22:43] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:831)
-[19:22:46] [Server thread/INFO]: Lesa1809_tw issued server command: /trash
-[19:22:46] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "org.bukkit.inventory.ItemStack.setType(org.bukkit.Material)" because "is" is null
-[19:22:46] [Server thread/WARN]: 	at br.net.fabiozumbi12.UTrash.UTGui.lambda$Open$2(UTGui.java:114)
-[19:22:46] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_17_R1.scheduler.CraftTask.run(CraftTask.java:100)
-[19:22:46] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_17_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:468)
-[19:22:46] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1488)
-[19:22:46] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:477)
-[19:22:46] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1404)
-[19:22:46] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1180)
-[19:22:46] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:320)
-[19:22:46] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:831)
-[19:22:48] [Server thread/INFO]: Lesa1809_tw issued server command: /trash
-[19:22:49] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "org.bukkit.inventory.ItemStack.setType(org.bukkit.Material)" because "is" is null
-[19:22:49] [Server thread/WARN]: 	at br.net.fabiozumbi12.UTrash.UTGui.lambda$Open$2(UTGui.java:114)
-[19:22:49] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_17_R1.scheduler.CraftTask.run(CraftTask.java:100)
-[19:22:49] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_17_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:468)
-[19:22:49] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1488)
-[19:22:49] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:477)
-[19:22:49] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1404)
-[19:22:49] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1180)
-[19:22:49] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:320)
-[19:22:49] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:831)
-[19:22:51] [Server thread/INFO]: Lesa1809_tw issued server command: /trash
-[19:22:51] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "org.bukkit.inventory.ItemStack.setType(org.bukkit.Material)" because "is" is null
-[19:22:51] [Server thread/WARN]: 	at br.net.fabiozumbi12.UTrash.UTGui.lambda$Open$2(UTGui.java:114)
-[19:22:51] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_17_R1.scheduler.CraftTask.run(CraftTask.java:100)
-[19:22:51] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_17_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:468)
-[19:22:51] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1488)
-[19:22:51] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:477)
-[19:22:51] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1404)
-[19:22:51] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1180)
-[19:22:51] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:320)
-[19:22:51] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:831)
-[19:23:37] [Server thread/INFO]: Lesa1809_tw issued server command: /menu
-[19:23:37] [Server thread/WARN]: [ChestCommands] Invalid sound "note pling".
-[19:23:43] [Server thread/INFO]: Lesa1809_tw issued server command: /trash
-[19:23:44] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "org.bukkit.inventory.ItemStack.setType(org.bukkit.Material)" because "is" is null
-[19:23:44] [Server thread/WARN]: 	at br.net.fabiozumbi12.UTrash.UTGui.lambda$Open$2(UTGui.java:114)
-[19:23:44] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_17_R1.scheduler.CraftTask.run(CraftTask.java:100)
-[19:23:44] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_17_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:468)
-[19:23:44] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1488)
-[19:23:44] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:477)
-[19:23:44] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1404)
-[19:23:44] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1180)
-[19:23:44] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:320)
-[19:23:44] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:831)
-[19:27:38] [Server thread/INFO]: Lesa1809_tw issued server command: /cc reload
-[19:27:57] [Server thread/INFO]: Lesa1809_tw issued server command: /summon minecraft:creeper
-[19:27:57] [Server thread/INFO]: [Lesa1809_tw: Summoned new Creeper]
-[19:28:08] [Server thread/INFO]: Lesa1809_tw issued server command: /menu
-[19:28:08] [Server thread/WARN]: [ChestCommands] Invalid sound "note pling".
-[19:28:09] [Server thread/INFO]: Lesa1809_tw issued server command: /co rollback radius:15 action:-block time:30s
-[19:28:14] [Server thread/INFO]: Lesa1809_tw issued server command: /menu
-[19:28:14] [Server thread/WARN]: [ChestCommands] Invalid sound "note pling".
-[19:28:43] [Server thread/INFO]: Lesa1809_tw issued server command: /summon minecraft:creeper
-[19:28:43] [Server thread/INFO]: [Lesa1809_tw: Summoned new Creeper]
-[19:28:48] [Server thread/INFO]: Lesa1809_tw issued server command: /menu
-[19:28:48] [Server thread/WARN]: [ChestCommands] Invalid sound "note pling".
-[19:28:49] [Server thread/INFO]: Lesa1809_tw issued server command: /co rollback radius:15 action:-block time:30s
-[19:29:20] [Server thread/INFO]: Lesa1809_tw issued server command: /summon minecraft:creeper
-[19:29:20] [Server thread/INFO]: [Lesa1809_tw: Summoned new Creeper]
-[19:29:27] [Server thread/INFO]: Lesa1809_tw issued server command: /menu'
-[19:29:28] [Server thread/INFO]: Lesa1809_tw issued server command: /menu
-[19:29:29] [Server thread/WARN]: [ChestCommands] Invalid sound "note pling".
-[19:29:30] [Server thread/INFO]: Lesa1809_tw issued server command: /co rollback radius:15 action:-block time:30s
-[19:29:43] [Server thread/INFO]: Lesa1809_tw issued server command: /gamemode creative
-[19:29:43] [Server thread/INFO]: [Lesa1809_tw: Set own game mode to Creative Mode]
-[19:29:57] [Server thread/INFO]: Lesa1809_tw issued server command: /gamemode survival
-[19:29:57] [Server thread/INFO]: [Lesa1809_tw: Set own game mode to Survival Mode]
-[19:31:20] [Server thread/INFO]: Lesa1809_tw issued server command: /gamemode creative
-[19:31:20] [Server thread/INFO]: [Lesa1809_tw: Set own game mode to Creative Mode]
-[19:31:42] [Server thread/INFO]: Lesa1809_tw issued server command: /gamemode survival
-[19:31:42] [Server thread/INFO]: [Lesa1809_tw: Set own game mode to Survival Mode]
-[19:33:40] [Server thread/INFO]: Lesa1809_tw issued server command: /menu
-[19:33:40] [Server thread/WARN]: [ChestCommands] Invalid sound "note pling".
-[19:33:41] [Server thread/INFO]: Lesa1809_tw issued server command: /co rollback radius:15 action:-block time:30s
-[19:34:04] [Server thread/INFO]: Lesa1809_tw was shot by Skeleton
-[19:34:19] [Server thread/INFO]: Lesa1809_tw issued server command: /menu
-[19:34:19] [Server thread/WARN]: [ChestCommands] Invalid sound "note pling".
-[19:34:20] [Server thread/INFO]: Lesa1809_tw issued server command: /co rollback radius:15 action:-block time:30s
-[19:34:30] [Server thread/INFO]: Lesa1809_tw issued server command: /menu
-[19:34:30] [Server thread/WARN]: [ChestCommands] Invalid sound "note pling".
-[19:34:45] [Server thread/INFO]: Lesa1809_tw was blown up by Creeper
-[19:34:54] [Server thread/INFO]: Lesa1809_tw issued server command: /menu
-[19:34:54] [Server thread/WARN]: [ChestCommands] Invalid sound "note pling".
-[19:34:55] [Server thread/INFO]: Lesa1809_tw issued server command: /co rollback radius:15 action:-block time:30s
-[19:35:24] [Server thread/INFO]: Lesa1809_tw issued server command: /menu
-[19:35:24] [Server thread/WARN]: [ChestCommands] Invalid sound "note pling".
-[19:35:25] [Server thread/INFO]: Lesa1809_tw issued server command: /co rollback radius:15 action:-block time:30s
-[19:35:36] [Server thread/INFO]: Lesa1809_tw issued server command: /menu
-[19:35:36] [Server thread/WARN]: [ChestCommands] Invalid sound "note pling".
-[19:35:38] [Server thread/INFO]: Lesa1809_tw issued server command: /co rollback radius:15 action:-block time:30s
-[19:36:18] [Server thread/INFO]: Lesa1809_tw was blown up by Creeper
-[19:36:32] [Server thread/INFO]: Lesa1809_tw issued server command: /menu
-[19:36:32] [Server thread/WARN]: [ChestCommands] Invalid sound "note pling".
-[19:36:32] [Server thread/INFO]: Lesa1809_tw issued server command: /co rollback radius:15 action:-block time:30s
-[19:36:57] [Server thread/INFO]: Lesa1809_tw issued server command: /menu
-[19:36:57] [Server thread/WARN]: [ChestCommands] Invalid sound "note pling".
-[19:36:58] [Server thread/INFO]: Lesa1809_tw issued server command: /co rollback radius:15 action:-block time:30s
-[19:37:18] [Server thread/INFO]: Lesa1809_tw was shot by Skeleton
-[19:37:45] [Server thread/INFO]: Lesa1809_tw was blown up by Creeper
-[19:37:58] [Server thread/INFO]: Lesa1809_tw issued server command: /menu
-[19:37:58] [Server thread/WARN]: [ChestCommands] Invalid sound "note pling".
-[19:38:00] [Server thread/INFO]: Lesa1809_tw issued server command: /co rollback radius:15 action:-block time:30s
-[19:38:22] [Server thread/INFO]: Lesa1809_tw issued server command: /menu
-[19:38:22] [Server thread/WARN]: [ChestCommands] Invalid sound "note pling".
-[19:38:23] [Server thread/INFO]: Lesa1809_tw issued server command: /co rollback radius:15 action:-block time:30s
-[19:38:33] [Server thread/INFO]: Lesa1809_tw issued server command: /menu
-[19:38:33] [Server thread/WARN]: [ChestCommands] Invalid sound "note pling".
-[19:38:34] [Server thread/INFO]: Lesa1809_tw issued server command: /co rollback radius:15 action:-block time:30s
-[19:39:17] [Server thread/INFO]: Lesa1809_tw issued server command: /trash
-[19:39:26] [Server thread/INFO]: Lesa1809_tw issued server command: /trash
-[19:39:33] [Server thread/INFO]: Lesa1809_tw issued server command: /menu
-[19:39:33] [Server thread/WARN]: [ChestCommands] Invalid sound "note pling".
-[19:51:15] [Server thread/INFO]: Lesa1809_tw issued server command: /cc reload
-[19:51:20] [Server thread/INFO]: Lesa1809_tw issued server command: /menu
-[19:51:20] [Server thread/WARN]: [ChestCommands] Invalid sound "note pling".
-[19:51:47] [Server thread/INFO]: Lesa1809_tw issued server command: /menu
-[19:51:47] [Server thread/WARN]: [ChestCommands] Invalid sound "note pling".
-[19:51:51] [Server thread/INFO]: Lesa1809_tw issued server command: /home
-[19:52:11] [Server thread/INFO]: Lesa1809_tw lost connection: Disconnected
-[19:52:11] [Server thread/INFO]: [-] Lesa1809_tw
-[19:53:28] [Server thread/INFO]: Stopping the server
-[19:53:28] [Server thread/INFO]: Stopping server
-[19:53:28] [Server thread/INFO]: [UltimateTrash] Disabling UltimateTrash v1.0.5
-[19:53:28] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.23.0
-[19:53:28] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] 已儲存已連結帳號，耗時18ms
-[19:53:28] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] 伺服器已關閉，耗時560ms
-[19:53:28] [Server thread/INFO]: [ChestCommands] Disabling ChestCommands v3.1.4
-[19:53:28] [Server thread/INFO]: [DefinedHUD] Disabling DefinedHUD v0.1
-[19:53:28] [Server thread/INFO]: [DefinedHUD] DefinedHUD disabled successfully!
-[19:53:28] [Server thread/INFO]: [SetHome] Disabling SetHome v5.1.2
-[19:53:28] [Server thread/INFO]: [JoinMessagePlus] Disabling JoinMessagePlus v3.3
-[19:53:28] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v19.5
-[19:53:28] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
-[19:53:29] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v19.5
-[19:53:29] [Server thread/INFO]: Saving players
-[19:53:29] [Server thread/INFO]: Saving worlds
-[19:53:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[SV]'/minecraft:overworld
-[19:53:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (SV): All chunks are saved
-[19:53:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[SV_nether]'/minecraft:the_nether
-[19:53:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[19:53:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[SV_the_end]'/minecraft:the_end
-[19:53:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[19:53:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (SV): All chunks are saved
-[19:53:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[19:53:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[19:53:30] [Server thread/INFO]: Flushing Chunk IO
-[19:53:30] [Server thread/INFO]: Closing Thread Pool
-[19:53:30] [Server thread/INFO]: Closing Server
+[16:52:22] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[16:52:22] [main/INFO]: Reloading ResourceManager: Default, CavesAndCliffsPreview.zip, DamegeDisplay, bukkit
+[16:52:26] [Worker-Main-2/INFO]: Loaded 7 recipes
+[16:52:26] [Worker-Main-2/ERROR]: Couldn't load tag minecraft:load as it is missing following references: minecraft: (from DamegeDisplay)
+[16:52:28] [Server thread/INFO]: Starting minecraft server version 1.17
+[16:52:28] [Server thread/INFO]: Loading properties
+[16:52:28] [Server thread/INFO]: This server is running Paper version git-Paper-68 (MC: 1.17) (Implementing API version 1.17-R0.1-SNAPSHOT) (Git: f18dc1e)
+[16:52:28] [Server thread/INFO]: Debug logging is disabled
+[16:52:28] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:52:28] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:52:28] [Server thread/INFO]: Default game type: SURVIVAL
+[16:52:28] [Server thread/INFO]: Generating keypair
+[16:52:29] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:52:29] [Server thread/INFO]: Using default channel type
+[16:52:30] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[16:52:39] [Server thread/WARN]: Legacy plugin SetHome v5.1.2 does not specify an api-version.
+[16:52:39] [Server thread/WARN]: Legacy plugin ChestCommands v3.1.4 does not specify an api-version.
+[16:52:40] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v19.5
+[16:52:40] [Server thread/INFO]: [JoinMessagePlus] Loading JoinMessagePlus v3.3
+[16:52:40] [Server thread/INFO]: [SetHome] Loading SetHome v5.1.2
+[16:52:40] [Server thread/INFO]: [DefinedHUD] Loading DefinedHUD v0.1
+[16:52:40] [Server thread/INFO]: [ChestCommands] Loading ChestCommands v3.1.4
+[16:52:40] [Server thread/INFO]: [DiscordSRV] Loading DiscordSRV v1.23.0
+[16:52:40] [Server thread/INFO]: [UltimateTrash] Loading UltimateTrash v1.0.5
+[16:52:40] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:52:40] [Server thread/INFO]: Preparing level "SV"
+[16:52:41] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:52:43] [Server thread/INFO]: Time elapsed: 1794 ms
+[16:52:43] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[16:52:44] [Server thread/INFO]: Time elapsed: 1107 ms
+[16:52:44] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[16:52:46] [Server thread/INFO]: Time elapsed: 1862 ms
+[16:52:46] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v19.5
+[16:52:47] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled! 
+[16:52:47] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+[16:52:47] [Server thread/INFO]: --------------------
+[16:52:47] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
+[16:52:47] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[16:52:47] [Server thread/INFO]: --------------------
+[16:52:47] [Server thread/INFO]: [JoinMessagePlus] Enabling JoinMessagePlus v3.3
+[16:52:47] [Server thread/INFO]: [JoinMessagePlus] [#]==========< JoinMessagePlus >==========[#]
+[16:52:47] [Server thread/INFO]: [JoinMessagePlus] Version: 3.3
+[16:52:47] [Server thread/INFO]: [JoinMessagePlus] Web: https://dev.bukkit.org/bukkit-plugins/join-message-plus/
+[16:52:47] [Server thread/INFO]: [JoinMessagePlus] Mode: BungeeCord + Standalone
+[16:52:47] [Server thread/INFO]: [JoinMessagePlus] Plugin by AndyCraftz
+[16:52:47] [Server thread/INFO]: [SetHome] Enabling SetHome v5.1.2*
+[16:52:47] [Server thread/INFO]: [DefinedHUD] Enabling DefinedHUD v0.1
+[16:52:47] [Server thread/INFO]: [DefinedHUD] DefinedHUD Enabling...
+[16:52:47] [Server thread/INFO]: [DefinedHUD] >> DefinedHUD enabled successfully! Server version: v1_17_R1
+[16:52:47] [Server thread/INFO]: [ChestCommands] Enabling ChestCommands v3.1.4*
+[16:52:47] [Server thread/WARN]: [ChestCommands] Vault with a compatible economy plugin was not found! Icons with a PRICE or commands that give money will not work.
+[16:52:47] [Server thread/WARN]: org.bukkit.configuration.InvalidConfigurationException: while parsing a block mapping
+[16:52:47] [Server thread/WARN]:  in 'string', line 64, column 3:
+[16:52:47] [Server thread/WARN]:       COMMAND: 'give @p command_block{ ... 
+[16:52:47] [Server thread/WARN]:       ^
+[16:52:47] [Server thread/WARN]: expected <block end>, but found '['
+[16:52:47] [Server thread/WARN]:  in 'string', line 64, column 62:
+[16:52:47] [Server thread/WARN]:      ... lock{HideFlags:1,display:{Name:'[{"text":"","italic":false},{"te ... 
+[16:52:47] [Server thread/WARN]:                                          ^
+[16:52:47] [Server thread/WARN]: 
+[16:52:47] [Server thread/WARN]: 	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:59)
+[16:52:47] [Server thread/WARN]: 	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160)
+[16:52:47] [Server thread/WARN]: 	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128)
+[16:52:47] [Server thread/WARN]: 	at com.gmail.filoghost.chestcommands.config.yaml.PluginConfig.load(PluginConfig.java:45)
+[16:52:47] [Server thread/WARN]: 	at com.gmail.filoghost.chestcommands.ChestCommands.load(ChestCommands.java:201)
+[16:52:47] [Server thread/WARN]: 	at com.gmail.filoghost.chestcommands.ChestCommands.onEnable(ChestCommands.java:131)
+[16:52:47] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263)
+[16:52:47] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370)
+[16:52:47] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:500)
+[16:52:47] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.enablePlugin(CraftServer.java:518)
+[16:52:47] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.enablePlugins(CraftServer.java:432)
+[16:52:47] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld(MinecraftServer.java:643)
+[16:52:47] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.init(DedicatedServer.java:304)
+[16:52:47] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1118)
+[16:52:47] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:320)
+[16:52:47] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:831)
+[16:52:47] [Server thread/WARN]: Caused by: while parsing a block mapping
+[16:52:47] [Server thread/WARN]:  in 'string', line 64, column 3:
+[16:52:47] [Server thread/WARN]:       COMMAND: 'give @p command_block{ ... 
+[16:52:47] [Server thread/WARN]:       ^
+[16:52:47] [Server thread/WARN]: expected <block end>, but found '['
+[16:52:47] [Server thread/WARN]:  in 'string', line 64, column 62:
+[16:52:47] [Server thread/WARN]:      ... lock{HideFlags:1,display:{Name:'[{"text":"","italic":false},{"te ... 
+[16:52:47] [Server thread/WARN]:                                          ^
+[16:52:47] [Server thread/WARN]: 
+[16:52:47] [Server thread/WARN]: 	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:617)
+[16:52:47] [Server thread/WARN]: 	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:165)
+[16:52:47] [Server thread/WARN]: 	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:59)
+[16:52:47] [Server thread/WARN]: 	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:45)
+[16:52:47] [Server thread/WARN]: 	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:140)
+[16:52:47] [Server thread/WARN]: 	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:119)
+[16:52:47] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeScalarNode(Composer.java:221)
+[16:52:47] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:191)
+[16:52:47] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:313)
+[16:52:47] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:304)
+[16:52:47] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:288)
+[16:52:47] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:195)
+[16:52:47] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:313)
+[16:52:47] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:304)
+[16:52:47] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:288)
+[16:52:47] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:195)
+[16:52:47] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:115)
+[16:52:47] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:146)
+[16:52:47] [Server thread/WARN]: 	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:151)
+[16:52:47] [Server thread/WARN]: 	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:490)
+[16:52:47] [Server thread/WARN]: 	at org.yaml.snakeyaml.Yaml.load(Yaml.java:416)
+[16:52:47] [Server thread/WARN]: 	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:57)
+[16:52:47] [Server thread/WARN]: 	... 15 more
+[16:52:47] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.23.0
+[16:52:47] [Server thread/INFO]: [UltimateTrash] Enabling UltimateTrash v1.0.5
+[16:52:47] [Server thread/INFO]: [UltimateTrash] UltimateTrash Enabled!
+[16:52:47] [Server thread/INFO]: Running delayed init tasks
+[16:52:47] [Server thread/INFO]: Done (19.444s)! For help, type "help"
+[16:52:47] [Server thread/INFO]: Timings Reset
+[16:52:48] [Server thread/INFO]:  
+#------------------- Chest Commands Errors -------------------#
+1) Invalid YAML configuration for the menu "menu.yml". Please look at the error above, or use an online YAML parser (google is your friend).
+#-------------------------------------------------------------#
+[16:52:48] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] No bot token has been set in the config; a bot token is required to connect to Discord.
+[16:52:48] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.23.0
+[16:52:48] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] 伺服器已關閉，耗時245ms
+[16:52:50] [pool-9-thread-1/WARN]: [DiscordSRV] Update check failed: zip file closed
+[16:53:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9079ms or 181 ticks behind
+[16:55:21] [User Authenticator #1/INFO]: UUID of player Lesa1809_tw is 292134c6-148e-4213-b89f-d29fdc2e03c4
+[16:55:21] [Server thread/INFO]: [+] Lesa1809_tw
+[16:55:21] [Server thread/INFO]: Lesa1809_tw[/127.0.0.1:64900] logged in with entity id 129 at ([SV]-133.93602380534344, 65.0, 0.2003683464402493)
+[16:55:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5155ms or 103 ticks behind
+[17:00:32] [Server thread/INFO]: Lesa1809_tw issued server command: /cc reload
+[17:00:45] [Server thread/INFO]: Lesa1809_tw issued server command: /menu
+[17:00:45] [Server thread/WARN]: [ChestCommands] Invalid sound "note pling".
+[17:00:47] [Server thread/INFO]: Lesa1809_tw issued server command: /give @p command_block{HideFlags:1,display:{Name:'[{"text":"","italic":false},{"text":"選單"}]',Lore:['[{"text":"","italic":false},{"text":"這是一個超方便的選單"}]']},Enchantments:[{"id":"minecraft:luck_of_the_sea","lvl":1}]} 1
+[17:00:47] [Server thread/INFO]: [Lesa1809_tw: Gave 1 [選單] to Lesa1809_tw]
+[17:00:51] [Server thread/WARN]: [ChestCommands] Invalid sound "note pling".
+[17:01:06] [Server thread/WARN]: [ChestCommands] Invalid sound "note pling".
+[17:01:08] [Server thread/INFO]: Lesa1809_tw issued server command: /co rollback radius:15 action:-block time:30s
+[17:01:34] [Server thread/INFO]: Lesa1809_tw issued server command: /kill @e[type=item,distance=..15]
+[17:01:34] [Server thread/INFO]: [Lesa1809_tw: Killed 5 entities]
+[17:02:10] [Server thread/WARN]: [ChestCommands] Invalid sound "note pling".
+[17:03:09] [Server thread/WARN]: [ChestCommands] Invalid sound "note pling".
+[17:05:48] [Server thread/INFO]: Lesa1809_tw issued server command: /cc reload
+[17:05:48] [Server thread/INFO]:  
+#------------------- Chest Commands Errors -------------------#
+1) The icon "closacmd" in the menu "hud.yml is overriding another icon with the same position.
+#-------------------------------------------------------------#
+[17:05:58] [Server thread/INFO]: Lesa1809_tw issued server command: /cc reload
+[17:06:07] [Server thread/INFO]: Lesa1809_tw issued server command: /hudmanu
+[17:06:17] [Server thread/INFO]: Lesa1809_tw issued server command: /hudmanu
+[17:06:20] [Server thread/INFO]: Lesa1809_tw issued server command: /manu
+[17:06:23] [Server thread/INFO]: Lesa1809_tw issued server command: /manu
+[17:06:30] [Server thread/INFO]: Lesa1809_tw issued server command: /hudmenu
+[17:06:30] [Server thread/WARN]: [ChestCommands] Invalid sound "note pling".
+[17:06:33] [Server thread/INFO]: Lesa1809_tw issued server command: /hud disable
+[17:06:37] [Server thread/INFO]: Lesa1809_tw issued server command: /hudmenu
+[17:06:37] [Server thread/WARN]: [ChestCommands] Invalid sound "note pling".
+[17:06:39] [Server thread/INFO]: Lesa1809_tw issued server command: /hud enable
+[17:06:50] [Server thread/INFO]: Lesa1809_tw issued server command: /hudmenu
+[17:06:50] [Server thread/WARN]: [ChestCommands] Invalid sound "note pling".
+[17:10:12] [Server thread/INFO]: Lesa1809_tw issued server command: /cc reload
+[17:10:12] [Server thread/INFO]:  
+#------------------- Chest Commands Errors -------------------#
+1) The icon "dark_closecmd" in the menu "hud.yml" has an invalid ID: invalid material "glowstone'"
+#-------------------------------------------------------------#
+[17:10:53] [Server thread/INFO]: Lesa1809_tw issued server command: /cc reload
+[17:10:58] [Server thread/WARN]: [ChestCommands] Invalid sound "note pling".
+[17:18:01] [Server thread/INFO]: Lesa1809_tw issued server command: /cc reload
+[17:18:05] [Server thread/WARN]: [ChestCommands] Invalid sound "note pling".
+[17:18:06] [Server thread/WARN]: [ChestCommands] Menu hud not found! Please inform the staff.
+[17:18:07] [Server thread/WARN]: [ChestCommands] Menu hud not found! Please inform the staff.
+[17:19:17] [Server thread/INFO]: Lesa1809_tw issued server command: /cc reload
+[17:19:18] [Server thread/WARN]: [ChestCommands] Invalid sound "note pling".
+[17:19:19] [Server thread/WARN]: [ChestCommands] Invalid sound "note pling".
+[17:19:32] [Server thread/INFO]: Lesa1809_tw issued server command: /hud disable
+[17:21:32] [Server thread/INFO]: Lesa1809_tw issued server command: /cc reload
+[17:21:35] [Server thread/WARN]: [ChestCommands] Invalid sound "note pling".
+[17:21:38] [Server thread/WARN]: [ChestCommands] Invalid sound "note pling".
+[17:21:59] [Server thread/INFO]: Lesa1809_tw issued server command: /playsound minecraft:entity.arrow.hit_player
+[17:22:02] [Server thread/INFO]: Lesa1809_tw issued server command: /playsound minecraft:entity.arrow.hit_player ambient
+[17:22:05] [Server thread/INFO]: Lesa1809_tw issued server command: /playsound minecraft:entity.arrow.hit_player ambient @a
+[17:22:05] [Server thread/INFO]: [Lesa1809_tw: Played sound minecraft:entity.arrow.hit_player to Lesa1809_tw]
+[17:22:20] [Server thread/WARN]: [ChestCommands] Invalid sound "note pling".
+[17:23:23] [Server thread/INFO]: Lesa1809_tw issued server command: /cc reload
+[17:23:31] [Server thread/INFO]: Lesa1809_tw issued server command: /hud darkMode enabled
+[17:23:38] [Server thread/INFO]: Lesa1809_tw issued server command: /hud enable
+[17:23:41] [Server thread/INFO]: Lesa1809_tw issued server command: /hud darkMode enabled
+[17:23:43] [Server thread/INFO]: Lesa1809_tw issued server command: /hud darkMode disabled
+[17:23:53] [Server thread/INFO]: Lesa1809_tw lost connection: Disconnected
+[17:23:53] [Server thread/INFO]: [-] Lesa1809_tw
+[17:23:59] [Server thread/INFO]: Stopping the server
+[17:23:59] [Server thread/INFO]: Stopping server
+[17:23:59] [Server thread/INFO]: [UltimateTrash] Disabling UltimateTrash v1.0.5
+[17:23:59] [Server thread/INFO]: [ChestCommands] Disabling ChestCommands v3.1.4
+[17:23:59] [Server thread/INFO]: [DefinedHUD] Disabling DefinedHUD v0.1
+[17:23:59] [Server thread/INFO]: [DefinedHUD] DefinedHUD disabled successfully!
+[17:23:59] [Server thread/INFO]: [SetHome] Disabling SetHome v5.1.2
+[17:23:59] [Server thread/INFO]: [JoinMessagePlus] Disabling JoinMessagePlus v3.3
+[17:23:59] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v19.5
+[17:23:59] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
+[17:24:00] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v19.5
+[17:24:00] [Server thread/INFO]: Saving players
+[17:24:00] [Server thread/INFO]: Saving worlds
+[17:24:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[SV]'/minecraft:overworld
+[17:24:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (SV): All chunks are saved
+[17:24:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[SV_nether]'/minecraft:the_nether
+[17:24:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:24:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[SV_the_end]'/minecraft:the_end
+[17:24:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:24:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (SV): All chunks are saved
+[17:24:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:24:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:24:00] [Server thread/INFO]: Flushing Chunk IO
+[17:24:00] [Server thread/INFO]: Closing Thread Pool
+[17:24:00] [Server thread/INFO]: Closing Server

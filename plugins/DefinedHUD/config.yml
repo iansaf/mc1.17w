@@ -38,4 +38,4 @@ playerConfig:
   292134c6-148e-4213-b89f-d29fdc2e03c4:
     coordinatesMode: enabled
     timeMode: clock24
-    darkMode: auto
+    darkMode: disabled

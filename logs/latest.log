@@ -1,212 +1,110 @@
-[16:52:22] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[16:52:22] [main/INFO]: Reloading ResourceManager: Default, CavesAndCliffsPreview.zip, DamegeDisplay, bukkit
-[16:52:26] [Worker-Main-2/INFO]: Loaded 7 recipes
-[16:52:26] [Worker-Main-2/ERROR]: Couldn't load tag minecraft:load as it is missing following references: minecraft: (from DamegeDisplay)
-[16:52:28] [Server thread/INFO]: Starting minecraft server version 1.17
-[16:52:28] [Server thread/INFO]: Loading properties
-[16:52:28] [Server thread/INFO]: This server is running Paper version git-Paper-68 (MC: 1.17) (Implementing API version 1.17-R0.1-SNAPSHOT) (Git: f18dc1e)
-[16:52:28] [Server thread/INFO]: Debug logging is disabled
-[16:52:28] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[16:52:28] [Server thread/INFO]: Using 4 threads for Netty based IO
-[16:52:28] [Server thread/INFO]: Default game type: SURVIVAL
-[16:52:28] [Server thread/INFO]: Generating keypair
-[16:52:29] [Server thread/INFO]: Starting Minecraft server on *:25565
-[16:52:29] [Server thread/INFO]: Using default channel type
-[16:52:30] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[16:52:39] [Server thread/WARN]: Legacy plugin SetHome v5.1.2 does not specify an api-version.
-[16:52:39] [Server thread/WARN]: Legacy plugin ChestCommands v3.1.4 does not specify an api-version.
-[16:52:40] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v19.5
-[16:52:40] [Server thread/INFO]: [JoinMessagePlus] Loading JoinMessagePlus v3.3
-[16:52:40] [Server thread/INFO]: [SetHome] Loading SetHome v5.1.2
-[16:52:40] [Server thread/INFO]: [DefinedHUD] Loading DefinedHUD v0.1
-[16:52:40] [Server thread/INFO]: [ChestCommands] Loading ChestCommands v3.1.4
-[16:52:40] [Server thread/INFO]: [DiscordSRV] Loading DiscordSRV v1.23.0
-[16:52:40] [Server thread/INFO]: [UltimateTrash] Loading UltimateTrash v1.0.5
-[16:52:40] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[16:52:40] [Server thread/INFO]: Preparing level "SV"
-[16:52:41] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[16:52:43] [Server thread/INFO]: Time elapsed: 1794 ms
-[16:52:43] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[16:52:44] [Server thread/INFO]: Time elapsed: 1107 ms
-[16:52:44] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[16:52:46] [Server thread/INFO]: Time elapsed: 1862 ms
-[16:52:46] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v19.5
-[16:52:47] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled! 
-[16:52:47] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
-[16:52:47] [Server thread/INFO]: --------------------
-[16:52:47] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
-[16:52:47] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
-[16:52:47] [Server thread/INFO]: --------------------
-[16:52:47] [Server thread/INFO]: [JoinMessagePlus] Enabling JoinMessagePlus v3.3
-[16:52:47] [Server thread/INFO]: [JoinMessagePlus] [#]==========< JoinMessagePlus >==========[#]
-[16:52:47] [Server thread/INFO]: [JoinMessagePlus] Version: 3.3
-[16:52:47] [Server thread/INFO]: [JoinMessagePlus] Web: https://dev.bukkit.org/bukkit-plugins/join-message-plus/
-[16:52:47] [Server thread/INFO]: [JoinMessagePlus] Mode: BungeeCord + Standalone
-[16:52:47] [Server thread/INFO]: [JoinMessagePlus] Plugin by AndyCraftz
-[16:52:47] [Server thread/INFO]: [SetHome] Enabling SetHome v5.1.2*
-[16:52:47] [Server thread/INFO]: [DefinedHUD] Enabling DefinedHUD v0.1
-[16:52:47] [Server thread/INFO]: [DefinedHUD] DefinedHUD Enabling...
-[16:52:47] [Server thread/INFO]: [DefinedHUD] >> DefinedHUD enabled successfully! Server version: v1_17_R1
-[16:52:47] [Server thread/INFO]: [ChestCommands] Enabling ChestCommands v3.1.4*
-[16:52:47] [Server thread/WARN]: [ChestCommands] Vault with a compatible economy plugin was not found! Icons with a PRICE or commands that give money will not work.
-[16:52:47] [Server thread/WARN]: org.bukkit.configuration.InvalidConfigurationException: while parsing a block mapping
-[16:52:47] [Server thread/WARN]:  in 'string', line 64, column 3:
-[16:52:47] [Server thread/WARN]:       COMMAND: 'give @p command_block{ ... 
-[16:52:47] [Server thread/WARN]:       ^
-[16:52:47] [Server thread/WARN]: expected <block end>, but found '['
-[16:52:47] [Server thread/WARN]:  in 'string', line 64, column 62:
-[16:52:47] [Server thread/WARN]:      ... lock{HideFlags:1,display:{Name:'[{"text":"","italic":false},{"te ... 
-[16:52:47] [Server thread/WARN]:                                          ^
-[16:52:47] [Server thread/WARN]: 
-[16:52:47] [Server thread/WARN]: 	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:59)
-[16:52:47] [Server thread/WARN]: 	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160)
-[16:52:47] [Server thread/WARN]: 	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128)
-[16:52:47] [Server thread/WARN]: 	at com.gmail.filoghost.chestcommands.config.yaml.PluginConfig.load(PluginConfig.java:45)
-[16:52:47] [Server thread/WARN]: 	at com.gmail.filoghost.chestcommands.ChestCommands.load(ChestCommands.java:201)
-[16:52:47] [Server thread/WARN]: 	at com.gmail.filoghost.chestcommands.ChestCommands.onEnable(ChestCommands.java:131)
-[16:52:47] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263)
-[16:52:47] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370)
-[16:52:47] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:500)
-[16:52:47] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.enablePlugin(CraftServer.java:518)
-[16:52:47] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.enablePlugins(CraftServer.java:432)
-[16:52:47] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld(MinecraftServer.java:643)
-[16:52:47] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.init(DedicatedServer.java:304)
-[16:52:47] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1118)
-[16:52:47] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:320)
-[16:52:47] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:831)
-[16:52:47] [Server thread/WARN]: Caused by: while parsing a block mapping
-[16:52:47] [Server thread/WARN]:  in 'string', line 64, column 3:
-[16:52:47] [Server thread/WARN]:       COMMAND: 'give @p command_block{ ... 
-[16:52:47] [Server thread/WARN]:       ^
-[16:52:47] [Server thread/WARN]: expected <block end>, but found '['
-[16:52:47] [Server thread/WARN]:  in 'string', line 64, column 62:
-[16:52:47] [Server thread/WARN]:      ... lock{HideFlags:1,display:{Name:'[{"text":"","italic":false},{"te ... 
-[16:52:47] [Server thread/WARN]:                                          ^
-[16:52:47] [Server thread/WARN]: 
-[16:52:47] [Server thread/WARN]: 	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:617)
-[16:52:47] [Server thread/WARN]: 	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:165)
-[16:52:47] [Server thread/WARN]: 	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:59)
-[16:52:47] [Server thread/WARN]: 	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:45)
-[16:52:47] [Server thread/WARN]: 	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:140)
-[16:52:47] [Server thread/WARN]: 	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:119)
-[16:52:47] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeScalarNode(Composer.java:221)
-[16:52:47] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:191)
-[16:52:47] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:313)
-[16:52:47] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:304)
-[16:52:47] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:288)
-[16:52:47] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:195)
-[16:52:47] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:313)
-[16:52:47] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:304)
-[16:52:47] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:288)
-[16:52:47] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:195)
-[16:52:47] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:115)
-[16:52:47] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:146)
-[16:52:47] [Server thread/WARN]: 	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:151)
-[16:52:47] [Server thread/WARN]: 	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:490)
-[16:52:47] [Server thread/WARN]: 	at org.yaml.snakeyaml.Yaml.load(Yaml.java:416)
-[16:52:47] [Server thread/WARN]: 	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:57)
-[16:52:47] [Server thread/WARN]: 	... 15 more
-[16:52:47] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.23.0
-[16:52:47] [Server thread/INFO]: [UltimateTrash] Enabling UltimateTrash v1.0.5
-[16:52:47] [Server thread/INFO]: [UltimateTrash] UltimateTrash Enabled!
-[16:52:47] [Server thread/INFO]: Running delayed init tasks
-[16:52:47] [Server thread/INFO]: Done (19.444s)! For help, type "help"
-[16:52:47] [Server thread/INFO]: Timings Reset
-[16:52:48] [Server thread/INFO]:  
-#------------------- Chest Commands Errors -------------------#
-1) Invalid YAML configuration for the menu "menu.yml". Please look at the error above, or use an online YAML parser (google is your friend).
-#-------------------------------------------------------------#
-[16:52:48] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] No bot token has been set in the config; a bot token is required to connect to Discord.
-[16:52:48] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.23.0
-[16:52:48] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] 伺服器已關閉，耗時245ms
-[16:52:50] [pool-9-thread-1/WARN]: [DiscordSRV] Update check failed: zip file closed
-[16:53:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9079ms or 181 ticks behind
-[16:55:21] [User Authenticator #1/INFO]: UUID of player Lesa1809_tw is 292134c6-148e-4213-b89f-d29fdc2e03c4
-[16:55:21] [Server thread/INFO]: [+] Lesa1809_tw
-[16:55:21] [Server thread/INFO]: Lesa1809_tw[/127.0.0.1:64900] logged in with entity id 129 at ([SV]-133.93602380534344, 65.0, 0.2003683464402493)
-[16:55:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5155ms or 103 ticks behind
-[17:00:32] [Server thread/INFO]: Lesa1809_tw issued server command: /cc reload
-[17:00:45] [Server thread/INFO]: Lesa1809_tw issued server command: /menu
-[17:00:45] [Server thread/WARN]: [ChestCommands] Invalid sound "note pling".
-[17:00:47] [Server thread/INFO]: Lesa1809_tw issued server command: /give @p command_block{HideFlags:1,display:{Name:'[{"text":"","italic":false},{"text":"選單"}]',Lore:['[{"text":"","italic":false},{"text":"這是一個超方便的選單"}]']},Enchantments:[{"id":"minecraft:luck_of_the_sea","lvl":1}]} 1
-[17:00:47] [Server thread/INFO]: [Lesa1809_tw: Gave 1 [選單] to Lesa1809_tw]
-[17:00:51] [Server thread/WARN]: [ChestCommands] Invalid sound "note pling".
-[17:01:06] [Server thread/WARN]: [ChestCommands] Invalid sound "note pling".
-[17:01:08] [Server thread/INFO]: Lesa1809_tw issued server command: /co rollback radius:15 action:-block time:30s
-[17:01:34] [Server thread/INFO]: Lesa1809_tw issued server command: /kill @e[type=item,distance=..15]
-[17:01:34] [Server thread/INFO]: [Lesa1809_tw: Killed 5 entities]
-[17:02:10] [Server thread/WARN]: [ChestCommands] Invalid sound "note pling".
-[17:03:09] [Server thread/WARN]: [ChestCommands] Invalid sound "note pling".
-[17:05:48] [Server thread/INFO]: Lesa1809_tw issued server command: /cc reload
-[17:05:48] [Server thread/INFO]:  
-#------------------- Chest Commands Errors -------------------#
-1) The icon "closacmd" in the menu "hud.yml is overriding another icon with the same position.
-#-------------------------------------------------------------#
-[17:05:58] [Server thread/INFO]: Lesa1809_tw issued server command: /cc reload
-[17:06:07] [Server thread/INFO]: Lesa1809_tw issued server command: /hudmanu
-[17:06:17] [Server thread/INFO]: Lesa1809_tw issued server command: /hudmanu
-[17:06:20] [Server thread/INFO]: Lesa1809_tw issued server command: /manu
-[17:06:23] [Server thread/INFO]: Lesa1809_tw issued server command: /manu
-[17:06:30] [Server thread/INFO]: Lesa1809_tw issued server command: /hudmenu
-[17:06:30] [Server thread/WARN]: [ChestCommands] Invalid sound "note pling".
-[17:06:33] [Server thread/INFO]: Lesa1809_tw issued server command: /hud disable
-[17:06:37] [Server thread/INFO]: Lesa1809_tw issued server command: /hudmenu
-[17:06:37] [Server thread/WARN]: [ChestCommands] Invalid sound "note pling".
-[17:06:39] [Server thread/INFO]: Lesa1809_tw issued server command: /hud enable
-[17:06:50] [Server thread/INFO]: Lesa1809_tw issued server command: /hudmenu
-[17:06:50] [Server thread/WARN]: [ChestCommands] Invalid sound "note pling".
-[17:10:12] [Server thread/INFO]: Lesa1809_tw issued server command: /cc reload
-[17:10:12] [Server thread/INFO]:  
-#------------------- Chest Commands Errors -------------------#
-1) The icon "dark_closecmd" in the menu "hud.yml" has an invalid ID: invalid material "glowstone'"
-#-------------------------------------------------------------#
-[17:10:53] [Server thread/INFO]: Lesa1809_tw issued server command: /cc reload
-[17:10:58] [Server thread/WARN]: [ChestCommands] Invalid sound "note pling".
-[17:18:01] [Server thread/INFO]: Lesa1809_tw issued server command: /cc reload
-[17:18:05] [Server thread/WARN]: [ChestCommands] Invalid sound "note pling".
-[17:18:06] [Server thread/WARN]: [ChestCommands] Menu hud not found! Please inform the staff.
-[17:18:07] [Server thread/WARN]: [ChestCommands] Menu hud not found! Please inform the staff.
-[17:19:17] [Server thread/INFO]: Lesa1809_tw issued server command: /cc reload
-[17:19:18] [Server thread/WARN]: [ChestCommands] Invalid sound "note pling".
-[17:19:19] [Server thread/WARN]: [ChestCommands] Invalid sound "note pling".
-[17:19:32] [Server thread/INFO]: Lesa1809_tw issued server command: /hud disable
-[17:21:32] [Server thread/INFO]: Lesa1809_tw issued server command: /cc reload
-[17:21:35] [Server thread/WARN]: [ChestCommands] Invalid sound "note pling".
-[17:21:38] [Server thread/WARN]: [ChestCommands] Invalid sound "note pling".
-[17:21:59] [Server thread/INFO]: Lesa1809_tw issued server command: /playsound minecraft:entity.arrow.hit_player
-[17:22:02] [Server thread/INFO]: Lesa1809_tw issued server command: /playsound minecraft:entity.arrow.hit_player ambient
-[17:22:05] [Server thread/INFO]: Lesa1809_tw issued server command: /playsound minecraft:entity.arrow.hit_player ambient @a
-[17:22:05] [Server thread/INFO]: [Lesa1809_tw: Played sound minecraft:entity.arrow.hit_player to Lesa1809_tw]
-[17:22:20] [Server thread/WARN]: [ChestCommands] Invalid sound "note pling".
-[17:23:23] [Server thread/INFO]: Lesa1809_tw issued server command: /cc reload
-[17:23:31] [Server thread/INFO]: Lesa1809_tw issued server command: /hud darkMode enabled
-[17:23:38] [Server thread/INFO]: Lesa1809_tw issued server command: /hud enable
-[17:23:41] [Server thread/INFO]: Lesa1809_tw issued server command: /hud darkMode enabled
-[17:23:43] [Server thread/INFO]: Lesa1809_tw issued server command: /hud darkMode disabled
-[17:23:53] [Server thread/INFO]: Lesa1809_tw lost connection: Disconnected
-[17:23:53] [Server thread/INFO]: [-] Lesa1809_tw
-[17:23:59] [Server thread/INFO]: Stopping the server
-[17:23:59] [Server thread/INFO]: Stopping server
-[17:23:59] [Server thread/INFO]: [UltimateTrash] Disabling UltimateTrash v1.0.5
-[17:23:59] [Server thread/INFO]: [ChestCommands] Disabling ChestCommands v3.1.4
-[17:23:59] [Server thread/INFO]: [DefinedHUD] Disabling DefinedHUD v0.1
-[17:23:59] [Server thread/INFO]: [DefinedHUD] DefinedHUD disabled successfully!
-[17:23:59] [Server thread/INFO]: [SetHome] Disabling SetHome v5.1.2
-[17:23:59] [Server thread/INFO]: [JoinMessagePlus] Disabling JoinMessagePlus v3.3
-[17:23:59] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v19.5
-[17:23:59] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
-[17:24:00] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v19.5
-[17:24:00] [Server thread/INFO]: Saving players
-[17:24:00] [Server thread/INFO]: Saving worlds
-[17:24:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[SV]'/minecraft:overworld
-[17:24:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (SV): All chunks are saved
-[17:24:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[SV_nether]'/minecraft:the_nether
-[17:24:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:24:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[SV_the_end]'/minecraft:the_end
-[17:24:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17:24:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (SV): All chunks are saved
-[17:24:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:24:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17:24:00] [Server thread/INFO]: Flushing Chunk IO
-[17:24:00] [Server thread/INFO]: Closing Thread Pool
-[17:24:00] [Server thread/INFO]: Closing Server
+[11:19:14] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[11:19:16] [main/INFO]: Reloading ResourceManager: Default, CavesAndCliffsPreview.zip, DamegeDisplay, bukkit
+[11:19:23] [Worker-Main-2/INFO]: Loaded 7 recipes
+[11:19:25] [Worker-Main-2/ERROR]: Couldn't load tag minecraft:load as it is missing following references: minecraft: (from DamegeDisplay)
+[11:19:28] [Server thread/INFO]: Starting minecraft server version 1.17
+[11:19:28] [Server thread/INFO]: Loading properties
+[11:19:28] [Server thread/INFO]: This server is running Paper version git-Paper-68 (MC: 1.17) (Implementing API version 1.17-R0.1-SNAPSHOT) (Git: f18dc1e)
+[11:19:29] [Server thread/INFO]: Debug logging is disabled
+[11:19:29] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[11:19:29] [Server thread/INFO]: Using 4 threads for Netty based IO
+[11:19:29] [Server thread/INFO]: Default game type: SURVIVAL
+[11:19:29] [Server thread/INFO]: Generating keypair
+[11:19:29] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:19:30] [Server thread/INFO]: Using default channel type
+[11:19:32] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[11:19:45] [Server thread/WARN]: Legacy plugin SetHome v5.1.2 does not specify an api-version.
+[11:19:45] [Server thread/WARN]: Legacy plugin ChestCommands v3.1.4 does not specify an api-version.
+[11:19:46] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v19.5
+[11:19:46] [Server thread/INFO]: [JoinMessagePlus] Loading JoinMessagePlus v3.3
+[11:19:46] [Server thread/INFO]: [SetHome] Loading SetHome v5.1.2
+[11:19:46] [Server thread/INFO]: [DefinedHUD] Loading DefinedHUD v0.1
+[11:19:46] [Server thread/INFO]: [ChestCommands] Loading ChestCommands v3.1.4
+[11:19:46] [Server thread/INFO]: [DiscordSRV] Loading DiscordSRV v1.23.0
+[11:19:46] [Server thread/INFO]: [UltimateTrash] Loading UltimateTrash v1.0.5
+[11:19:46] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[11:19:46] [Server thread/INFO]: Preparing level "SV"
+[11:19:48] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[11:19:52] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[11:19:52] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[11:19:52] [Server thread/INFO]: Time elapsed: 4108 ms
+[11:19:52] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[11:19:54] [Server thread/INFO]: Time elapsed: 2057 ms
+[11:19:54] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[11:19:57] [Server thread/INFO]: Time elapsed: 3282 ms
+[11:19:57] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v19.5
+[11:19:59] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled! 
+[11:19:59] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+[11:19:59] [Server thread/INFO]: --------------------
+[11:19:59] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
+[11:19:59] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[11:19:59] [Server thread/INFO]: --------------------
+[11:19:59] [Server thread/INFO]: [JoinMessagePlus] Enabling JoinMessagePlus v3.3
+[11:19:59] [Server thread/INFO]: [JoinMessagePlus] [#]==========< JoinMessagePlus >==========[#]
+[11:19:59] [Server thread/INFO]: [JoinMessagePlus] Version: 3.3
+[11:19:59] [Server thread/INFO]: [JoinMessagePlus] Web: https://dev.bukkit.org/bukkit-plugins/join-message-plus/
+[11:19:59] [Server thread/INFO]: [JoinMessagePlus] Mode: BungeeCord + Standalone
+[11:19:59] [Server thread/INFO]: [JoinMessagePlus] Plugin by AndyCraftz
+[11:19:59] [Server thread/INFO]: [SetHome] Enabling SetHome v5.1.2*
+[11:19:59] [Server thread/INFO]: [DefinedHUD] Enabling DefinedHUD v0.1
+[11:19:59] [Server thread/INFO]: [DefinedHUD] DefinedHUD Enabling...
+[11:19:59] [Server thread/INFO]: [DefinedHUD] >> DefinedHUD enabled successfully! Server version: v1_17_R1
+[11:20:00] [Server thread/INFO]: [ChestCommands] Enabling ChestCommands v3.1.4*
+[11:20:00] [Server thread/WARN]: [ChestCommands] Vault with a compatible economy plugin was not found! Icons with a PRICE or commands that give money will not work.
+[11:20:00] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.23.0
+[11:20:00] [Server thread/INFO]: [UltimateTrash] Enabling UltimateTrash v1.0.5
+[11:20:00] [Server thread/INFO]: [UltimateTrash] UltimateTrash Enabled!
+[11:20:01] [Server thread/INFO]: Running delayed init tasks
+[11:20:01] [Server thread/INFO]: Done (32.507s)! For help, type "help"
+[11:20:01] [Server thread/INFO]: Timings Reset
+[11:20:06] [Log4j2-TF-1-AsyncLogger[AsyncContext@7852e922]-1/INFO]: [DiscordSRV] [JDA] Login Successful!
+[11:20:07] [pool-9-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (ae26c8fa7a85120ccb1cf9bc46d8de316c1a5db8)
+[11:20:08] [Log4j2-TF-1-AsyncLogger[AsyncContext@7852e922]-1/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[11:20:09] [Log4j2-TF-1-AsyncLogger[AsyncContext@7852e922]-1/INFO]: [DiscordSRV] [JDA] Finished Loading!
+[11:20:09] [DiscordSRV - Initialization/INFO]: [DiscordSRV] 已找到伺服器 G:開心農場交流群-新月公會(859585898152722442)
+[11:20:09] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:?【系統】(859586511505719346)
+[11:20:09] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:?【身分組】(859590111820775455)
+[11:20:09] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:?【公會公告】(861037637459509258)
+[11:20:09] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:?【加入公會】(863211499912691742)
+[11:20:09] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:?【迷因分享區】(861555133141614642)
+[11:20:09] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:?【投票區】(861928219740995604)
+[11:20:09] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:?【一般聊天】(859585898152722444)
+[11:20:09] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:?【機器人】(862492981784477697)
+[11:20:09] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:?【minecraft-id】(859606084918575124)
+[11:20:09] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:?【主控台】(861077958697418763)
+[11:20:09] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:?【聊天室】(861078214885769226)
+[11:20:09] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:?【點歌】(862852834603827240)
+[11:20:09] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:ticket-0006(863249811590348830)
+[11:20:09] [DiscordSRV - Initialization/INFO]: [DiscordSRV] 控制台轉送已指派至頻道 TC:?【主控台】(861077958697418763)
+[11:20:09] [DiscordSRV - Initialization/INFO]: [DiscordSRV] 未啟用鉤取任何聊天插件
+[11:20:45] [Server thread/INFO]: [Server] discord tast stop
+[11:21:18] [Server thread/INFO]: No player was found
+[11:21:27] [Server thread/INFO]: No player was found
+[11:21:34] [Server thread/INFO]: Stopping the server
+[11:21:34] [Server thread/INFO]: Stopping server
+[11:21:34] [Server thread/INFO]: [UltimateTrash] Disabling UltimateTrash v1.0.5
+[11:21:34] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.23.0
+[11:21:34] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] 已儲存已連結帳號，耗時11ms
+[11:21:34] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] 伺服器已關閉，耗時545ms
+[11:21:34] [Server thread/INFO]: [ChestCommands] Disabling ChestCommands v3.1.4
+[11:21:34] [Server thread/INFO]: [DefinedHUD] Disabling DefinedHUD v0.1
+[11:21:34] [Server thread/INFO]: [DefinedHUD] DefinedHUD disabled successfully!
+[11:21:34] [Server thread/INFO]: [SetHome] Disabling SetHome v5.1.2
+[11:21:34] [Server thread/INFO]: [JoinMessagePlus] Disabling JoinMessagePlus v3.3
+[11:21:34] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v19.5
+[11:21:34] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
+[11:21:35] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v19.5
+[11:21:35] [Server thread/INFO]: Saving players
+[11:21:36] [Server thread/INFO]: Saving worlds
+[11:21:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[SV]'/minecraft:overworld
+[11:21:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (SV): All chunks are saved
+[11:21:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[SV_nether]'/minecraft:the_nether
+[11:21:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:21:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[SV_the_end]'/minecraft:the_end
+[11:21:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:21:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (SV): All chunks are saved
+[11:21:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:21:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:21:38] [Server thread/INFO]: Flushing Chunk IO
+[11:21:38] [Server thread/INFO]: Closing Thread Pool
+[11:21:38] [Server thread/INFO]: Closing Server

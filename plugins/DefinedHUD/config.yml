@@ -39,3 +39,7 @@ playerConfig:
     coordinatesMode: enabled
     timeMode: clock24
     darkMode: auto
+  88cc189e-7ebb-41bd-974c-74b557b4bac2:
+    coordinatesMode: enabled
+    timeMode: clock24
+    darkMode: enabled

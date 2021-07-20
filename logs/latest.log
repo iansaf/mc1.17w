@@ -1,141 +1,194 @@
-[09:57:38] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[09:57:40] [main/INFO]: Reloading ResourceManager: Default, CavesAndCliffsPreview.zip, DamegeDisplay, bukkit
-[09:57:45] [Worker-Main-2/INFO]: Loaded 7 recipes
-[09:57:46] [Worker-Main-2/ERROR]: Couldn't load tag minecraft:load as it is missing following references: minecraft: (from DamegeDisplay)
-[09:57:48] [Server thread/INFO]: Starting minecraft server version 1.17
-[09:57:48] [Server thread/INFO]: Loading properties
-[09:57:49] [Server thread/INFO]: This server is running Paper version git-Paper-68 (MC: 1.17) (Implementing API version 1.17-R0.1-SNAPSHOT) (Git: f18dc1e)
-[09:57:49] [Server thread/INFO]: Debug logging is disabled
-[09:57:49] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[09:57:49] [Server thread/INFO]: Using 4 threads for Netty based IO
-[09:57:49] [Server thread/INFO]: Default game type: SURVIVAL
-[09:57:49] [Server thread/INFO]: Generating keypair
-[09:57:49] [Server thread/INFO]: Starting Minecraft server on *:25565
-[09:57:49] [Server thread/INFO]: Using default channel type
-[09:57:52] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[09:58:03] [Server thread/WARN]: Legacy plugin SetHome v5.1.2 does not specify an api-version.
-[09:58:03] [Server thread/WARN]: Legacy plugin Invsee v1.0.0 does not specify an api-version.
-[09:58:03] [Server thread/WARN]: Legacy plugin ChestCommands v3.1.4 does not specify an api-version.
-[09:58:04] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v19.5
-[09:58:04] [Server thread/INFO]: [JoinMessagePlus] Loading JoinMessagePlus v3.3
-[09:58:04] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.3.51
-[09:58:06] [Server thread/INFO]: [SetHome] Loading SetHome v5.1.2
-[09:58:06] [Server thread/INFO]: [DefinedHUD] Loading DefinedHUD v0.1
-[09:58:06] [Server thread/INFO]: [Invsee] Loading Invsee v1.0.0
-[09:58:06] [Server thread/INFO]: [ChestCommands] Loading ChestCommands v3.1.4
-[09:58:06] [Server thread/INFO]: [DiscordSRV] Loading DiscordSRV v1.23.0
-[09:58:06] [Server thread/INFO]: [TabTPS] Loading TabTPS v1.3.8
-[09:58:06] [Server thread/INFO]: [ianplugin] Loading testplugin v1.0
-[09:58:06] [Server thread/INFO]: [UltimateTrash] Loading UltimateTrash v1.0.5
-[09:58:06] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[09:58:06] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.3.51
-[09:58:07] [Server thread/INFO]:         __    
-[09:58:07] [Server thread/INFO]:   |    |__)   LuckPerms v5.3.51
-[09:58:07] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[09:58:07] [Server thread/INFO]: 
-[09:58:07] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[09:58:08] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[09:58:10] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[09:58:10] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[09:58:11] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 4028ms)
-[09:58:11] [Server thread/INFO]: Preparing level "SV"
-[09:58:12] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[09:58:15] [Server thread/INFO]: Time elapsed: 2727 ms
-[09:58:15] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[09:58:18] [Server thread/INFO]: Time elapsed: 2974 ms
-[09:58:18] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[09:58:20] [Server thread/INFO]: Time elapsed: 2401 ms
-[09:58:20] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v19.5
-[09:58:21] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled! 
-[09:58:21] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
-[09:58:21] [Server thread/INFO]: --------------------
-[09:58:21] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
-[09:58:21] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
-[09:58:21] [Server thread/INFO]: --------------------
-[09:58:21] [Server thread/INFO]: [JoinMessagePlus] Enabling JoinMessagePlus v3.3
-[09:58:21] [Server thread/INFO]: [JoinMessagePlus] [#]==========< JoinMessagePlus >==========[#]
-[09:58:21] [Server thread/INFO]: [JoinMessagePlus] Version: 3.3
-[09:58:21] [Server thread/INFO]: [JoinMessagePlus] Web: https://dev.bukkit.org/bukkit-plugins/join-message-plus/
-[09:58:21] [Server thread/INFO]: [JoinMessagePlus] Mode: BungeeCord + Standalone
-[09:58:21] [Server thread/INFO]: [JoinMessagePlus] Plugin by AndyCraftz
-[09:58:21] [Server thread/INFO]: [SetHome] Enabling SetHome v5.1.2*
-[09:58:21] [Server thread/INFO]: [DefinedHUD] Enabling DefinedHUD v0.1
-[09:58:21] [Server thread/INFO]: [DefinedHUD] DefinedHUD Enabling...
-[09:58:21] [Server thread/INFO]: [DefinedHUD] >> DefinedHUD enabled successfully! Server version: v1_17_R1
-[09:58:21] [Server thread/INFO]: [Invsee] Enabling Invsee v1.0.0*
-[09:58:21] [Server thread/INFO]: [ChestCommands] Enabling ChestCommands v3.1.4*
-[09:58:21] [Server thread/WARN]: [ChestCommands] Vault with a compatible economy plugin was not found! Icons with a PRICE or commands that give money will not work.
-[09:58:21] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.23.0
-[09:58:21] [Server thread/INFO]: [TabTPS] Enabling TabTPS v1.3.8
-[09:58:22] [Server thread/INFO]: [TabTPS] Successfully registered Mojang Brigadier support for commands.
-[09:58:22] [Server thread/INFO]: [TabTPS] Successfully registered asynchronous command completion listener.
-[09:58:23] [Server thread/INFO]: [ianplugin] Enabling testplugin v1.0
-[09:58:23] [Server thread/INFO]: [ianplugin] 插件啟動...
-[09:58:23] [Server thread/INFO]: [UltimateTrash] Enabling UltimateTrash v1.0.5
-[09:58:23] [Server thread/INFO]: [UltimateTrash] UltimateTrash Enabled!
-[09:58:24] [Server thread/INFO]: Running delayed init tasks
-[09:58:24] [Server thread/INFO]: Done (35.357s)! For help, type "help"
-[09:58:24] [Server thread/INFO]: Timings Reset
-[09:58:27] [pool-17-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (ae26c8fa7a85120ccb1cf9bc46d8de316c1a5db8)
-[09:58:28] [Log4j2-TF-1-AsyncLogger[AsyncContext@7852e922]-1/INFO]: [DiscordSRV] [JDA] Login Successful!
-[09:58:29] [Log4j2-TF-1-AsyncLogger[AsyncContext@7852e922]-1/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
-[09:58:30] [Log4j2-TF-1-AsyncLogger[AsyncContext@7852e922]-1/INFO]: [DiscordSRV] [JDA] Finished Loading!
-[09:58:30] [DiscordSRV - Initialization/INFO]: [DiscordSRV] 已找到伺服器 G:開心農場交流群-新月公會(859585898152722442)
-[09:58:30] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:?【系統】(859586511505719346)
-[09:58:30] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:?【身分組】(859590111820775455)
-[09:58:30] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:?【公會公告】(861037637459509258)
-[09:58:30] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:?【加入公會】(863211499912691742)
-[09:58:30] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:?【迷因分享區】(861555133141614642)
-[09:58:30] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:?【投票區】(861928219740995604)
-[09:58:30] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:?【一般聊天】(859585898152722444)
-[09:58:30] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:?【機器人】(862492981784477697)
-[09:58:30] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:?【minecraft-id】(859606084918575124)
-[09:58:30] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:?【主控台】(861077958697418763)
-[09:58:30] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:?【聊天室】(861078214885769226)
-[09:58:30] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:?【點歌】(862852834603827240)
-[09:58:30] [DiscordSRV - Initialization/INFO]: [DiscordSRV] 控制台轉送已指派至頻道 TC:?【主控台】(861077958697418763)
-[09:58:30] [DiscordSRV - Initialization/INFO]: [DiscordSRV] 啟用鉤取 LuckPerms
-[09:58:30] [DiscordSRV - Initialization/INFO]: [DiscordSRV] 未啟用鉤取任何聊天插件
-[09:58:47] [User Authenticator #1/INFO]: UUID of player Lesa1809_tw is 292134c6-148e-4213-b89f-d29fdc2e03c4
-[09:58:49] [Server thread/INFO]: [+] Lesa1809_tw
-[09:58:49] [Server thread/INFO]: Lesa1809_tw[/1.173.22.104:51984] logged in with entity id 47 at ([SV]-147.79655504598495, 69.0, 4.678404603361176)
-[09:59:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5081ms or 101 ticks behind
-[09:59:19] [Server thread/INFO]: Lesa1809_tw issued server command: /stop
-[09:59:19] [Server thread/INFO]: [Lesa1809_tw: Stopping the server]
-[09:59:19] [Server thread/INFO]: Stopping server
-[09:59:19] [Server thread/INFO]: [UltimateTrash] Disabling UltimateTrash v1.0.5
-[09:59:19] [Server thread/INFO]: [ianplugin] Disabling testplugin v1.0
-[09:59:19] [Server thread/INFO]: [ianplugin] 插件關閉...
-[09:59:19] [Server thread/INFO]: [TabTPS] Disabling TabTPS v1.3.8
-[09:59:19] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.23.0
-[09:59:20] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] 已儲存已連結帳號，耗時20ms
-[09:59:21] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] 伺服器已關閉，耗時1470ms
-[09:59:21] [Server thread/INFO]: [ChestCommands] Disabling ChestCommands v3.1.4
-[09:59:21] [Server thread/INFO]: [Invsee] Disabling Invsee v1.0.0
-[09:59:21] [Server thread/INFO]: [DefinedHUD] Disabling DefinedHUD v0.1
-[09:59:21] [Server thread/INFO]: [DefinedHUD] DefinedHUD disabled successfully!
-[09:59:21] [Server thread/INFO]: [SetHome] Disabling SetHome v5.1.2
-[09:59:21] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.3.51
-[09:59:21] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[09:59:21] [Server thread/INFO]: [LuckPerms] Closing storage...
-[09:59:21] [Server thread/INFO]: [LuckPerms] Goodbye!
-[09:59:21] [Server thread/INFO]: [JoinMessagePlus] Disabling JoinMessagePlus v3.3
-[09:59:21] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v19.5
-[09:59:21] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
-[09:59:22] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v19.5
-[09:59:22] [Server thread/INFO]: Saving players
-[09:59:22] [Server thread/INFO]: Lesa1809_tw lost connection: Server closed
-[09:59:22] [Server thread/INFO]: Lesa1809_tw left the game
-[09:59:22] [Server thread/INFO]: Saving worlds
-[09:59:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[SV]'/minecraft:overworld
-[09:59:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (SV): All chunks are saved
-[09:59:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[SV_nether]'/minecraft:the_nether
-[09:59:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[09:59:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[SV_the_end]'/minecraft:the_end
-[09:59:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[09:59:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (SV): All chunks are saved
-[09:59:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[09:59:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[09:59:26] [Server thread/INFO]: Flushing Chunk IO
-[09:59:26] [Server thread/INFO]: Closing Thread Pool
-[09:59:26] [Server thread/INFO]: Closing Server
+[13:50:27] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[13:50:28] [main/INFO]: Reloading ResourceManager: Default, CavesAndCliffsPreview.zip, DamegeDisplay, bukkit
+[13:50:33] [Worker-Main-2/INFO]: Loaded 7 recipes
+[13:50:35] [Worker-Main-2/ERROR]: Couldn't load tag minecraft:load as it is missing following references: minecraft: (from DamegeDisplay)
+[13:50:37] [Server thread/INFO]: Starting minecraft server version 1.17
+[13:50:37] [Server thread/INFO]: Loading properties
+[13:50:38] [Server thread/INFO]: This server is running Paper version git-Paper-68 (MC: 1.17) (Implementing API version 1.17-R0.1-SNAPSHOT) (Git: f18dc1e)
+[13:50:38] [Server thread/INFO]: Debug logging is disabled
+[13:50:38] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:50:38] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:50:38] [Server thread/INFO]: Default game type: SURVIVAL
+[13:50:38] [Server thread/INFO]: Generating keypair
+[13:50:38] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:50:38] [Server thread/INFO]: Using default channel type
+[13:50:41] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[13:50:52] [Server thread/WARN]: Legacy plugin SetHome v5.1.2 does not specify an api-version.
+[13:50:52] [Server thread/WARN]: Legacy plugin Invsee v1.0.0 does not specify an api-version.
+[13:50:52] [Server thread/WARN]: Legacy plugin ChestCommands v3.1.4 does not specify an api-version.
+[13:50:53] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v19.5
+[13:50:53] [Server thread/INFO]: [JoinMessagePlus] Loading JoinMessagePlus v3.3
+[13:50:53] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.3.51
+[13:50:55] [Server thread/INFO]: [SetHome] Loading SetHome v5.1.2
+[13:50:55] [Server thread/INFO]: [DefinedHUD] Loading DefinedHUD v0.1
+[13:50:55] [Server thread/INFO]: [Invsee] Loading Invsee v1.0.0
+[13:50:55] [Server thread/INFO]: [GSit] Loading GSit v[5.4.0.0]
+[13:50:55] [Server thread/INFO]: [ChestCommands] Loading ChestCommands v3.1.4
+[13:50:55] [Server thread/INFO]: [DiscordSRV] Loading DiscordSRV v1.23.0
+[13:50:55] [Server thread/INFO]: [TabTPS] Loading TabTPS v1.3.8
+[13:50:55] [Server thread/INFO]: [ianplugin] Loading testplugin v1.0
+[13:50:55] [Server thread/INFO]: [UltimateTrash] Loading UltimateTrash v1.0.5
+[13:50:55] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:50:55] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.3.51
+[13:50:56] [Server thread/INFO]:         __    
+[13:50:56] [Server thread/INFO]:   |    |__)   LuckPerms v5.3.51
+[13:50:56] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[13:50:56] [Server thread/INFO]: 
+[13:50:56] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[13:50:56] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[13:50:58] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[13:50:58] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[13:50:58] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 3464ms)
+[13:50:58] [Server thread/INFO]: Preparing level "SV"
+[13:51:00] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[13:51:02] [Server thread/INFO]: Time elapsed: 2106 ms
+[13:51:02] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[13:51:04] [Server thread/INFO]: Time elapsed: 1251 ms
+[13:51:04] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[13:51:06] [Server thread/INFO]: Time elapsed: 2006 ms
+[13:51:06] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v19.5
+[13:51:06] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled! 
+[13:51:06] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+[13:51:06] [Server thread/INFO]: --------------------
+[13:51:06] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
+[13:51:06] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[13:51:06] [Server thread/INFO]: --------------------
+[13:51:06] [Server thread/INFO]: [JoinMessagePlus] Enabling JoinMessagePlus v3.3
+[13:51:06] [Server thread/INFO]: [JoinMessagePlus] [#]==========< JoinMessagePlus >==========[#]
+[13:51:06] [Server thread/INFO]: [JoinMessagePlus] Version: 3.3
+[13:51:06] [Server thread/INFO]: [JoinMessagePlus] Web: https://dev.bukkit.org/bukkit-plugins/join-message-plus/
+[13:51:07] [Server thread/INFO]: [JoinMessagePlus] Mode: BungeeCord + Standalone
+[13:51:07] [Server thread/INFO]: [JoinMessagePlus] Plugin by AndyCraftz
+[13:51:07] [Server thread/INFO]: [SetHome] Enabling SetHome v5.1.2*
+[13:51:07] [Server thread/INFO]: [DefinedHUD] Enabling DefinedHUD v0.1
+[13:51:07] [Server thread/INFO]: [DefinedHUD] DefinedHUD Enabling...
+[13:51:07] [Server thread/INFO]: [DefinedHUD] >> DefinedHUD enabled successfully! Server version: v1_17_R1
+[13:51:07] [Server thread/INFO]: [Invsee] Enabling Invsee v1.0.0*
+[13:51:07] [Server thread/INFO]: [GSit] Enabling GSit v[5.4.0.0]
+[13:51:07] [Server thread/INFO]: [GSit] The Plugin was successfully enabled.
+[13:51:08] [Server thread/INFO]: [ChestCommands] Enabling ChestCommands v3.1.4*
+[13:51:08] [Server thread/WARN]: [ChestCommands] Vault with a compatible economy plugin was not found! Icons with a PRICE or commands that give money will not work.
+[13:51:08] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.23.0
+[13:51:08] [Server thread/INFO]: [TabTPS] Enabling TabTPS v1.3.8
+[13:51:08] [Server thread/INFO]: [TabTPS] Successfully registered Mojang Brigadier support for commands.
+[13:51:08] [Server thread/INFO]: [TabTPS] Successfully registered asynchronous command completion listener.
+[13:51:09] [Server thread/INFO]: [ianplugin] Enabling testplugin v1.0
+[13:51:09] [Server thread/INFO]: [ianplugin] 插件啟動...
+[13:51:09] [Server thread/INFO]: [UltimateTrash] Enabling UltimateTrash v1.0.5
+[13:51:10] [Server thread/INFO]: [UltimateTrash] UltimateTrash Enabled!
+[13:51:11] [Server thread/INFO]: Running delayed init tasks
+[13:51:11] [Server thread/INFO]: Done (33.359s)! For help, type "help"
+[13:51:11] [Server thread/INFO]: Timings Reset
+[13:51:14] [pool-18-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (ae26c8fa7a85120ccb1cf9bc46d8de316c1a5db8)
+[13:51:15] [Log4j2-TF-1-AsyncLogger[AsyncContext@7852e922]-1/INFO]: [DiscordSRV] [JDA] Login Successful!
+[13:51:15] [Log4j2-TF-1-AsyncLogger[AsyncContext@7852e922]-1/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[13:51:16] [Log4j2-TF-1-AsyncLogger[AsyncContext@7852e922]-1/INFO]: [DiscordSRV] [JDA] Finished Loading!
+[13:51:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] 已找到伺服器 G:開心農場交流群-新月公會(859585898152722442)
+[13:51:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:?【系統】(859586511505719346)
+[13:51:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:?【規則】(865429387288903691)
+[13:51:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:?【身分組】(859590111820775455)
+[13:51:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:?【公會公告】(861037637459509258)
+[13:51:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:?【防疫資訊】(865078876546924570)
+[13:51:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:?【dc官方】(865434360609636352)
+[13:51:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:?【加入公會】(863211499912691742)
+[13:51:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:?【迷因分享區】(861555133141614642)
+[13:51:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:?【投票區】(861928219740995604)
+[13:51:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:?【一般聊天】(859585898152722444)
+[13:51:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:?【機器人】(862492981784477697)
+[13:51:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:?【minecraft-id】(859606084918575124)
+[13:51:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:?【主控台】(861077958697418763)
+[13:51:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:?【聊天室】(861078214885769226)
+[13:51:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:?【點歌】(862852834603827240)
+[13:51:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] 控制台轉送已指派至頻道 TC:?【主控台】(861077958697418763)
+[13:51:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] 啟用鉤取 LuckPerms
+[13:51:16] [DiscordSRV - Initialization/INFO]: [DiscordSRV] 未啟用鉤取任何聊天插件
+[13:51:30] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[13:51:45] [luckperms-command-executor/INFO]: [LP] Running LuckPerms v5.3.51.
+[13:51:45] [luckperms-command-executor/INFO]: [LP] 使用 /lp help 來查看可用的指令.
+[13:51:53] [luckperms-command-executor/INFO]: [LP] Running LuckPerms v5.3.51.
+[13:51:53] [luckperms-command-executor/INFO]: > /lp user <user>
+[13:51:53] [luckperms-command-executor/INFO]: > /lp group <group>
+[13:51:53] [luckperms-command-executor/INFO]: > /lp track <track>
+[13:51:53] [luckperms-command-executor/INFO]: > /lp log
+[13:51:53] [luckperms-command-executor/INFO]: > /lp sync
+[13:51:53] [luckperms-command-executor/INFO]: > /lp info
+[13:51:53] [luckperms-command-executor/INFO]: > /lp editor [type]
+[13:51:53] [luckperms-command-executor/INFO]: > /lp verbose <on|record|off|upload> [filter]
+[13:51:53] [luckperms-command-executor/INFO]: > /lp tree [scope] [player]
+[13:51:53] [luckperms-command-executor/INFO]: > /lp search <permission>
+[13:51:53] [luckperms-command-executor/INFO]: > /lp networksync
+[13:51:53] [luckperms-command-executor/INFO]: > /lp import <file>
+[13:51:53] [luckperms-command-executor/INFO]: > /lp export <file>
+[13:51:53] [luckperms-command-executor/INFO]: > /lp reloadconfig
+[13:51:53] [luckperms-command-executor/INFO]: > /lp bulkupdate
+[13:51:53] [luckperms-command-executor/INFO]: > /lp translations
+[13:51:53] [luckperms-command-executor/INFO]: > /lp creategroup <group>
+[13:51:53] [luckperms-command-executor/INFO]: > /lp deletegroup <group>
+[13:51:53] [luckperms-command-executor/INFO]: > /lp listgroups
+[13:51:53] [luckperms-command-executor/INFO]: > /lp createtrack <track>
+[13:51:53] [luckperms-command-executor/INFO]: > /lp deletetrack <track>
+[13:51:53] [luckperms-command-executor/INFO]: > /lp listtracks
+[13:52:08] [luckperms-command-executor/INFO]: [LP] 正在準備一個新的編輯器，請稍候……
+[13:52:10] [luckperms-command-executor/INFO]: [LP] 點擊下方連結開啟編輯器:
+[13:52:10] [luckperms-command-executor/INFO]: https://luckperms.net/editor/OE9ERwv5di
+[13:53:13] [Server thread/INFO]: You must specify a player from the console.
+[13:53:50] [Server thread/INFO]: You must specify a player from the console.
+[13:53:57] [Server thread/INFO]: [ChestCommands]  Commands:
+[13:53:57] [Server thread/INFO]: /cc reload - Reloads the plugin.
+[13:53:57] [Server thread/INFO]: /cc list - Lists the loaded menus.
+[13:53:57] [Server thread/INFO]: /cc open <menu> [player] - Opens a menu for a player.
+[13:55:53] [User Authenticator #1/INFO]: UUID of player Lesa1809_tw is 292134c6-148e-4213-b89f-d29fdc2e03c4
+[13:55:54] [Server thread/INFO]: [+] Lesa1809_tw
+[13:55:55] [Server thread/INFO]: Lesa1809_tw[/1.173.22.104:64491] logged in with entity id 145 at ([SV]-137.92685327314638, 65.0, -4.699999988079071)
+[13:56:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5003ms or 100 ticks behind
+[13:56:59] [Server thread/INFO]: Lesa1809_tw issued server command: /home
+[13:57:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 25445ms or 508 ticks behind
+[13:58:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11305ms or 226 ticks behind
+[13:58:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5292ms or 105 ticks behind
+[14:00:30] [Server thread/INFO]: Lesa1809_tw issued server command: /co rollback radius:15 action:-block time:30s
+[14:00:42] [Server thread/INFO]: Lesa1809_tw issued server command: /co rollback radius:15 action:-block time:30s
+[14:03:53] [Server thread/INFO]: Lesa1809_tw issued server command: /co rollback radius:15 action:-block time:30s
+[14:04:27] [Server thread/INFO]: Lesa1809_tw issued server command: /kill @e[type=item,distance=..2]
+[14:04:33] [Server thread/INFO]: Lesa1809_tw issued server command: /kill @e[type=item,distance=..2]
+[14:04:33] [Server thread/INFO]: [Lesa1809_tw: Killed Lilac]
+[14:04:43] [Server thread/INFO]: Lesa1809_tw issued server command: /stop
+[14:04:43] [Server thread/INFO]: [Lesa1809_tw: Stopping the server]
+[14:04:43] [Server thread/INFO]: Stopping server
+[14:04:43] [Server thread/INFO]: [UltimateTrash] Disabling UltimateTrash v1.0.5
+[14:04:43] [Server thread/INFO]: [ianplugin] Disabling testplugin v1.0
+[14:04:43] [Server thread/INFO]: [ianplugin] 插件關閉...
+[14:04:43] [Server thread/INFO]: [TabTPS] Disabling TabTPS v1.3.8
+[14:04:43] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.23.0
+[14:04:43] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] 已儲存已連結帳號，耗時19ms
+[14:04:43] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] 伺服器已關閉，耗時607ms
+[14:04:44] [Server thread/INFO]: [ChestCommands] Disabling ChestCommands v3.1.4
+[14:04:44] [Server thread/INFO]: [GSit] Disabling GSit v[5.4.0.0]
+[14:04:44] [Server thread/INFO]: [GSit] The Plugin was successfully disabled.
+[14:04:44] [Server thread/INFO]: [Invsee] Disabling Invsee v1.0.0
+[14:04:44] [Server thread/INFO]: [DefinedHUD] Disabling DefinedHUD v0.1
+[14:04:44] [Server thread/INFO]: [DefinedHUD] DefinedHUD disabled successfully!
+[14:04:44] [Server thread/INFO]: [SetHome] Disabling SetHome v5.1.2
+[14:04:44] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.3.51
+[14:04:44] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[14:04:44] [Server thread/INFO]: [LuckPerms] Closing storage...
+[14:04:44] [Server thread/INFO]: [LuckPerms] Goodbye!
+[14:04:44] [Server thread/INFO]: [JoinMessagePlus] Disabling JoinMessagePlus v3.3
+[14:04:44] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v19.5
+[14:04:44] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
+[14:04:45] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v19.5
+[14:04:45] [Server thread/INFO]: Saving players
+[14:04:45] [Server thread/INFO]: Lesa1809_tw lost connection: Server closed
+[14:04:45] [Server thread/INFO]: Lesa1809_tw left the game
+[14:04:45] [Server thread/INFO]: Saving worlds
+[14:04:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[SV]'/minecraft:overworld
+[14:04:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (SV): All chunks are saved
+[14:04:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[SV_nether]'/minecraft:the_nether
+[14:04:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:04:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[SV_the_end]'/minecraft:the_end
+[14:04:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14:04:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (SV): All chunks are saved
+[14:04:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:04:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14:04:46] [Server thread/INFO]: Flushing Chunk IO
+[14:04:46] [Server thread/INFO]: Closing Thread Pool
+[14:04:46] [Server thread/INFO]: Closing Server

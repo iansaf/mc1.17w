@@ -1,81 +1,52 @@
-######################
-#+                  +#
-#   MENU SETTINGS    #
-#+                  +#
-######################
-
 menu-settings:
-
-  # name - appears as the title - REQUIRED
   name: '&1選單'
-
-  # rows - the number of rows of the chest - REQUIRED
   rows: 1
-
-  # command - OPTIONAL (you can remove this or set it to '')
-  # Bind multiple commands using ; (command: 'menu; m; me')
-  command: 'menu'
-
-  # auto-refresh - OPTIONAL
-  # How frequently the menu will be refreshed, in seconds.
-  # Useful if you have variables in items' descriptions.
+  commands:
+  - menu
   auto-refresh: 5
-
-  # This command command will be execute when the menu is opened.
-  # Supports all the icon command types.
-  open-action: 'tell: &e選單已開啟.'
-
-  # open-with-item - OPTIONAL
-  # The menu will open only right-clicking with orange wool [35:1]
+  open-actions:
+  - 'tell: &e選單已開啟.'
   open-with-item:
-    id: 'command_block'
+    material: command_block
     right-click: true
     left-click: false
-
-######################
-#+                  +#
-#       ITEMS        #
-#+                  +#
-######################
-
-
 homecmd:
-  COMMAND: 'home'
+  ACTIONS:
+  - home
   NAME: '&e傳送到家'
-  ID: bed
+  MATERIAL: bedrock
   POSITION-X: 1
   POSITION-Y: 1
-
 sethomecmd:
-  COMMAND: 'sethome'
+  ACTIONS:
+  - sethome
   NAME: '&e設定家'
-  ID: redstone_block
+  MATERIAL: redstone_block
   POSITION-X: 2
   POSITION-Y: 1
-
 rollbackcmd:
-  COMMAND: 'co rollback radius:15 action:-block time:30s'
+  ACTIONS:
+  - co rollback radius:15 action:-block time:30s
   NAME: '&e還原爆炸'
-  ID: 'lava_bucket'
+  MATERIAL: lava_bucket
   POSITION-X: 3
   POSITION-Y: 1
-
-give-combk: 
-  COMMAND: 'give @p command_block{HideFlags:1,display:{Name:''[{"text":"","italic":false},{"text":"選單"}]'',Lore:[''[{"text":"","italic":false},{"text":"這是一個超方便的選單"}]'']},Enchantments:[{"id":"minecraft:luck_of_the_sea","lvl":1}]} 1'
+give-combk:
+  ACTIONS:
+  - give @s command_block{HideFlags:1,display:{Name:'[{"text":"","italic":false},{"text":"選單"}]',Lore:['[{"text":"","italic":false},{"text":"這是一個超方便的選單"}]']},Enchantments:[{"id":"minecraft:luck_of_the_sea","lvl":1}]} 1
   NAME: '&6取得選單'
-  ID: 'command_block'
+  MATERIAL: command_block
   POSITION-X: 8
   POSITION-Y: 1
-
-openhudmenu: 
-  COMMAND: 'open: hud.yml'
+openhudmenu:
+  ACTIONS:
+  - 'open: hud.yml'
   NAME: '&e開啟HUD選單'
-  ID: 'glowstone'
+  MATERIAL: glowstone
   POSITION-X: 4
   POSITION-Y: 1
-
 menu-close-no-commands-no-lore:
   NAME: '&6關閉選單'
-  ID: redstone lamp
+  MATERIAL: redstone lamp
   POSITION-X: 9
   POSITION-Y: 1

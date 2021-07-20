@@ -1,0 +1,19 @@
+trash:
+  block:
+    enable: true
+    block: '118:0'
+    blacklist-item:
+    - '326:0'
+    - '374:0'
+    message: '&aThe item in your hand has been dropped'
+  sign:
+    enable: true
+    inventory-name: '&3Trash'
+    sign-line:
+    - '&3[&bSign&3]'
+    - ''
+    - ''
+    - '&7Right Click'
+  command:
+    permission-message: '&cYou don''t have permission to do this command !'
+    inventory-name: '&3Trash'

@@ -1,10 +1,8 @@
-# ChestCommands configuration file.
-# Tutorial: http://dev.bukkit.org/bukkit-plugins/chest-commands
+# ChestCommands main configuration file.
+# Documentation: https://filoghost.me/docs/chest-commands
 
 default-color:
   name: '&f'
   lore: '&7'
-multiple-commands-separator: ;
-use-only-commands-without-args: true
-use-console-colors: true
 anti-click-spam-delay: 200
+update-notifications: true

@@ -1,0 +1,58 @@
+# -+- Simple Fly Plugin By Nort721 v1.16 -+-
+# placeholders:
+# %player% - who executes the command
+# %other% - who the admin executes the command on
+
+# messages settings:
+#-------------------------
+prefix: '&e&lFly >&r '
+Enable fly message: '&b Fly mode Enable for %player%'
+Disable fly message: '&b Fly mode Disabled for %player%'
+disable fly message other: '&b your Fly mode Disabled by &c%player%'
+enable fly message other (player message): '&b your Fly mode enabled by %player%'
+disable fly message other (player message): '&b your Fly mode disabled by %player%'
+# %other% placeholder can be used only here
+#-----
+disable fly message other (admin message): '&b you have disable fly mode to %other% successfully!'
+enable fly message other (admin message): '&b you have enable fly mode to %other% successfully'
+#-----
+Fly all enable message: '&eyou have &a&lenabled &efly mod for all the players on the server'
+Fly all disable message: '&eyou have &c&ldisable &efly mod for all the players on the server'
+no money message: '&c&lYou do not have enough money for that!'
+#-------------------------
+
+# other settings:
+#--------------------------
+when player join fly is Enabled/Disabled/none: none
+
+# Economy Section
+#-------
+use Economy: false
+take money for using fly command: false
+price for using fly command: 35
+#-------
+#--------------------------
+
+
+# Effect Section
+# recommended to set the 'play particle' option to 
+# false if your server suffering from low preformance issues! (should not make problems tho ;) )
+#-------
+play particle effect while flying: true
+play sound when using fly command: true
+play sound when starting fly: true
+#-------
+
+
+# Disabled worlds list, when a player enters one of these worlds
+# without the permission player.bypass.disabledworlds his fly mode will
+# be disabled automatically, commands from the plugin will not work
+# in these worlds if the player who did the command doesnt has the
+# bypass permission.
+#-------
+Use disabled worlds system: false
+disabled world message: '&cthis plugin is &4&ldisabled &cin this world'
+#-------
+Disable_worlds:
+  - example
+#-------

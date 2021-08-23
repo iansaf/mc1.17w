@@ -1,1 +1,1 @@
-"C:\Program Files\Java\jdk-16.0.1\bin\java.exe" -Xmx1024M -Xms768M -jar paper-1.17.1-118.jar nogui
+"C:\Program Files\Java\jdk-16.0.2\bin\java.exe" -Xmx1024M -Xms768M -jar paper-1.17.1-118.jar nogui

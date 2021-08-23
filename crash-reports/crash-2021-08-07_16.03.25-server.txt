@@ -1,0 +1,65 @@
+---- Minecraft Crash Report ----
+// Who set us up the TNT?
+
+Time: 2021/8/7 下午4:03
+Description: Exception in server tick loop
+
+java.lang.IllegalStateException: The file "banned-players.json" is either empty or corrupt
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:444)
+	at app//net.minecraft.server.players.StoredUserList.load(StoredUserList.java:190)
+	at app//net.minecraft.server.dedicated.DedicatedPlayerList.loadUserBanList(DedicatedPlayerList.java:89)
+	at app//net.minecraft.server.dedicated.DedicatedPlayerList.loadAndSaveFiles(DedicatedPlayerList.java:24)
+	at app//net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:212)
+	at app//net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1126)
+	at app//net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.17.1
+	Minecraft Version ID: 1.17.1
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 16.0.2, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode, sharing), Oracle Corporation
+	Memory: 535553024 bytes (510 MiB) / 805306368 bytes (768 MiB) up to 1073741824 bytes (1024 MiB)
+	CPUs: 4
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Athlon 3000G with Radeon Vega Graphics     
+	Identifier: AuthenticAMD Family 23 Model 24 Stepping 1
+	Microarchitecture: Zen / Zen+
+	Frequency (GHz): 3.49
+	Number of physical packages: 1
+	Number of physical CPUs: 2
+	Number of logical CPUs: 4
+	Graphics card #0 name: AMD Radeon(TM) Vega 3 Graphics
+	Graphics card #0 vendor: Advanced Micro Devices, Inc. (0x1002)
+	Graphics card #0 VRAM (MB): 2048.00
+	Graphics card #0 deviceId: 0x15d8
+	Graphics card #0 versionInfo: DriverVersion=30.0.13001.3012
+	Memory slot #0 capacity (MB): 4096.00
+	Memory slot #0 clockSpeed (GHz): 2.67
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MB): 4096.00
+	Memory slot #1 clockSpeed (GHz): 2.67
+	Memory slot #1 type: DDR4
+	Virtual memory max (MB): 18368.66
+	Virtual memory used (MB): 13399.17
+	Swap memory total (MB): 12288.00
+	Swap memory used (MB): 1924.18
+	JVM Flags: 2 total; -Xmx1024M -Xms768M
+	CraftBukkit Information: 
+   Running: Paper version git-Paper-118 (MC: 1.17.1) (Implementing API version 1.17.1-R0.1-SNAPSHOT) true
+   Plugins: {}
+   Warnings: DEFAULT
+   Reload Count: 0
+   Threads: { WAITING Finalizer: [java.base@16.0.2/java.lang.Object.wait(Native Method), java.base@16.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155), java.base@16.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176), java.base@16.0.2/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:171)], RUNNABLE Notification Thread: [], TIMED_WAITING Craft Scheduler Thread - 0: [java.base@16.0.2/jdk.internal.misc.Unsafe.park(Native Method), java.base@16.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252), java.base@16.0.2/java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:462), java.base@16.0.2/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:361), java.base@16.0.2/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937), java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1055), java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116), java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630), java.base@16.0.2/java.lang.Thread.run(Thread.java:831)], TIMED_WAITING Common-Cleaner: [java.base@16.0.2/java.lang.Object.wait(Native Method), java.base@16.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155), java.base@16.0.2/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:140), java.base@16.0.2/java.lang.Thread.run(Thread.java:831), java.base@16.0.2/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:134)], WAITING Worker-Main-2: [java.base@16.0.2/jdk.internal.misc.Unsafe.park(Native Method), java.base@16.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341), java.base@16.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:505), java.base@16.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3137), java.base@16.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1614), java.base@16.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435), java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056), java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116), java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630), java.base@16.0.2/java.lang.Thread.run(Thread.java:831)], TIMED_WAITING Craft Scheduler Thread - 2: [java.base@16.0.2/jdk.internal.misc.Unsafe.park(Native Method), java.base@16.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252), java.base@16.0.2/java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:462), java.base@16.0.2/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:361), java.base@16.0.2/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937), java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1055), java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116), java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630), java.base@16.0.2/java.lang.Thread.run(Thread.java:831)], RUNNABLE Attach Listener: [], TIMED_WAITING Log4j2-TF-1-AsyncLogger[AsyncContext@7852e922]-1: [java.base@16.0.2/jdk.internal.misc.Unsafe.park(Native Method), java.base@16.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252), java.base@16.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1661), app//com.lmax.disruptor.TimeoutBlockingWaitStrategy.waitFor(TimeoutBlockingWaitStrategy.java:38), app//com.lmax.disruptor.ProcessingSequenceBarrier.waitFor(ProcessingSequenceBarrier.java:56), app//com.lmax.disruptor.BatchEventProcessor.processEvents(BatchEventProcessor.java:159), app//com.lmax.disruptor.BatchEventProcessor.run(BatchEventProcessor.java:125), java.base@16.0.2/java.lang.Thread.run(Thread.java:831)], RUNNABLE Signal Dispatcher: [], WAITING Worker-Main-1: [java.base@16.0.2/jdk.internal.misc.Unsafe.park(Native Method), java.base@16.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341), java.base@16.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:505), java.base@16.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3137), java.base@16.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1614), java.base@16.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435), java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1056), java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116), java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630), java.base@16.0.2/java.lang.Thread.run(Thread.java:831)], TIMED_WAITING Craft Scheduler Thread - 1: [java.base@16.0.2/jdk.internal.misc.Unsafe.park(Native Method), java.base@16.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252), java.base@16.0.2/java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:462), java.base@16.0.2/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:361), java.base@16.0.2/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937), java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1055), java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116), java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630), java.base@16.0.2/java.lang.Thread.run(Thread.java:831)], RUNNABLE Reference Handler: [java.base@16.0.2/java.lang.ref.Reference.waitForReferencePendingList(Native Method), java.base@16.0.2/java.lang.ref.Reference.processPendingReferences(Reference.java:243), java.base@16.0.2/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:215)], TIMED_WAITING Timer hack thread: [java.base@16.0.2/java.lang.Thread.sleep(Native Method), app//net.minecraft.SystemUtils$4.run(SystemUtils.java:581)], WAITING Snooper Timer: [java.base@16.0.2/java.lang.Object.wait(Native Method), java.base@16.0.2/java.lang.Object.wait(Object.java:320), java.base@16.0.2/java.util.TimerThread.mainLoop(Timer.java:527), java.base@16.0.2/java.util.TimerThread.run(Timer.java:506)], TIMED_WAITING Server console handler: [java.base@16.0.2/java.lang.Object.wait(Native Method), app//org.jline.utils.NonBlockingPumpReader.wait(NonBlockingPumpReader.java:55), app//org.jline.utils.NonBlockingPumpReader.read(NonBlockingPumpReader.java:101), app//org.jline.utils.NonBlockingReader.read(NonBlockingReader.java:57), app//org.jline.keymap.BindingReader.readCharacter(BindingReader.java:133), app//org.jline.keymap.BindingReader.readBinding(BindingReader.java:110), app//org.jline.keymap.BindingReader.readBinding(BindingReader.java:61), app//org.jline.reader.impl.LineReaderImpl.doReadBinding(LineReaderImpl.java:848), app//org.jline.reader.impl.LineReaderImpl.readBinding(LineReaderImpl.java:868), app//org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:575), app//org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:418), app//net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:158), app//net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:141), app//net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:113)], RUNNABLE WindowsStreamPump: [app//org.fusesource.jansi.internal.Kernel32.WaitForSingleObject(Native Method), app//org.fusesource.jansi.internal.WindowsSupport.readConsoleInput(WindowsSupport.java:97), app//org.jline.terminal.impl.jansi.win.JansiWinSysTerminal.processConsoleInput(JansiWinSysTerminal.java:112), app//org.jline.terminal.impl.AbstractWindowsTerminal.pump(AbstractWindowsTerminal.java:458), app//org.jline.terminal.impl.AbstractWindowsTerminal$$Lambda$103/0x0000000800d1cac0.run(Unknown Source), java.base@16.0.2/java.lang.Thread.run(Thread.java:831)], TIMED_WAITING Craft Scheduler Thread - 3: [java.base@16.0.2/jdk.internal.misc.Unsafe.park(Native Method), java.base@16.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252), java.base@16.0.2/java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:462), java.base@16.0.2/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:361), java.base@16.0.2/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937), java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1055), java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1116), java.base@16.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630), java.base@16.0.2/java.lang.Thread.run(Thread.java:831)], RUNNABLE Server thread: [java.base@16.0.2/java.lang.Thread.dumpThreads(Native Method), java.base@16.0.2/java.lang.Thread.getAllStackTraces(Thread.java:1647), app//org.bukkit.craftbukkit.v1_17_R1.CraftCrashReport.get(CraftCrashReport.java:33), app//org.bukkit.craftbukkit.v1_17_R1.CraftCrashReport.get(CraftCrashReport.java:17), app//net.minecraft.SystemReport.a(SystemReport.java:65), app//net.minecraft.CrashReport.<init>(CrashReport.java:36), app//net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1219), app//net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316), app//net.minecraft.server.MinecraftServer$$Lambda$3670/0x00000008013e13a0.run(Unknown Source), java.base@16.0.2/java.lang.Thread.run(Thread.java:831)], RUNNABLE DestroyJavaVM: [],}
+   
+   Force Loaded Chunks: {}
+	Player Count: 0 / 6; []
+	Data Packs: vanilla, file/DamegeDisplay (incompatible), file/bukkit, file/CavesAndCliffsPreview_1.zip
+	Is Modded: Definitely; Server brand changed to 'Paper'
+	Type: Dedicated Server (map_server.txt)
